@@ -1,0 +1,222 @@
+/* my nav */
+
+
+#header, #nav {
+      overflow: hidden;
+    }
+    #header {
+      background-color: black;
+      line-height: 50px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #nav-collapse {
+      background-color: red;
+      line-height: 50px;
+      position: relative;
+    }
+    #logo a {
+      color: white;
+    }
+    #logo {
+      float: left;
+      margin-left: 10%;
+      font-size: 50px;
+      font-family: "Academy Engraved LET";
+    }
+    #logo a:hover {
+      text-decoration: none;
+      color: white;
+    }
+    #logo2 {float: left;
+      margin-left: 11%;
+      font-size: 25px;
+      font-family: "Academy Engraved LET";
+      position: absolute;
+      left: 150px;
+      bottom: 45px;
+      color: white;
+    }
+    #loginReg {
+      float: right;
+      margin-right: 10%;
+    }
+    #nav-collapse {
+      margin-left: 10%;
+    }
+    form.chrome-search.pull-right {
+      margin: 0px;
+    }
+    #nav ul {
+    
+      font-size: 60px;
+      font-family: aria;
+    }
+    div.ul.li {
+      display: inline-block;
+      margin-right: 30px;
+    }
+    .navbar .nav {
+    position: relative;
+    left: 10%;
+    display: block;
+    float: left;
+    margin: 0 10px 0 0;
+  }
+
+/* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      margin-top: 20px;
+      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+    .navbar-wrapper .navbar {
+
+    }
+
+    /* Remove border and change up box shadow for more contrast */
+    .navbar .navbar-inner {
+      
+      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+              box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    }
+
+    /* Downsize the brand/project name a bit */
+    .navbar .brand {
+      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+      font-size: 25px;
+      font-weight: bold;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    }
+
+    /* Navbar links: increase padding for taller navbar */
+    .navbar .nav > li > a {
+      padding: 15px 20px;
+    }
+
+    /* Offset the responsive button for proper vertical alignment */
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+
+    .ask {
+      float: right;
+      color: yellow;
+    }
+    .nav{
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .search-box {
+      margin-top: 10px;
+    }
+
+/* General */
+body {font:normal small helvetica; line-height:16px; color:#545454; background-color:#fff;}
+
+
+/* Main */
+
+div#main_content {width:1100px; margin-left: auto; margin-right: auto;}
+
+div#main_content #col_964 {width:1100px;}
+div#main_content #col_964 #breadcrumbs {float:left; width:964px; height:14px; margin-top:8px; padding:0;}
+div#main_content #col_964 #section_title {float:left; width:964px; height:48px; margin-top:7px; padding:0; background-image:url(http://www.valetmag.com/gr/global/art-background_section_title1.gif); background-repeat:repeat-x; background-position:bottom;}
+div#main_content #col_964 #section_wrapper_1 {width:964px; margin-top:30px;}
+
+
+
+div#main_content #col_964 #section_wrapper_1 #section_title_bar #ask_submit {float:right;}
+div#main_content #col_964 #section_wrapper_1 #ask_top_1 {float:left; width:964px; background-image:url(http://www.valetmag.com/gr/ask-valet/art-background_ask_top1.gif); background-repeat:repeat-y;}
+div#main_content #col_964 #section_wrapper_1 #ask_top_1 #ask_top_col1 {float:left; width:436px; margin-right:35px;}
+div#main_content #col_964 #section_wrapper_1 #ask_top_1 #ask_top_col1 #ask_col1_secondary {float:left; width:436px; background-image:url(http://www.valetmag.com/gr/ask-valet/art-background_ask_top2.gif); background-repeat:repeat-y;}
+div#main_content #col_964 #section_wrapper_1 #ask_top_1 #ask_top_col1 #ask_col1_secondary #col1_secondary_col1 {float:left; width:203px;}
+div#main_content #col_964 #section_wrapper_1 #ask_top_1 #ask_top_col1 #ask_col1_secondary #col1_secondary_col2 {float:right; width:203px;}
+div#main_content #col_964 #section_wrapper_1 #ask_top_1 #ask_top_col2 {float:left; width:493px;}
+div#main_content #col_964 #section_wrapper_1 #ask_top_1 #ask_top_col2 #ask_col2_content {padding:10px;}
+div#main_content #col_964 #section_wrapper_1 #ask_top_1 #ask_top_col2 #ask_col2_content #col2_content_module {float:left; min-height:66px; padding:7px; background-color:#fff; border-top:solid 1px #f0f0f0; border-bottom:solid 1px #f0f0f0;}
+div#main_content #col_964 #section_wrapper_1 #ask_top_1 #ask_top_col2 #ask_col2_content #col2_content_ask {float:left; width:453px; padding:8px; border:solid 1px #dedede;}
+div#main_content #col_964 #section_wrapper_1 #ask_top_1 #ask_top_col2 #ask_col2_content #col2_content_ask #ask_col1 {float:left; width:216px;}
+div#main_content #col_964 #section_wrapper_1 #ask_top_1 #ask_top_col2 #ask_col2_content #col2_content_ask #ask_col2 {float:right; width:216px;}
+div#main_content #col_964 #section_wrapper_1 #ask_top_2 {float:left; width:964px; background-image:url(http://www.valetmag.com/gr/ask-valet/art-background_ask_top4.gif); background-repeat:repeat-y;}
+div#main_content #col_964 #section_wrapper_1 #ask_top_2 #ask_top2_col1 {float:left; width:721px; margin-right:30px;}
+div#main_content #col_964 #section_wrapper_1 #ask_top_2 #ask_top2_col2 {float:left; width:213px;}
+div#main_content #col_964 #section_wrapper_1 #ask_middle_1 {float:left; width:964px; min-height:125px; background-image:url(http://www.valetmag.com/gr/ask-valet/art-background_ask_middle1.gif); background-repeat:repeat-y;}
+div#main_content #col_964 #section_wrapper_1 #ask_middle_1 #ask_middle_col1 {float:left; width:144px; margin-right:17px;}
+div#main_content #col_964 #section_wrapper_1 #ask_middle_1 #ask_middle_col2 {float:left; width:192px; margin-right:17px;}
+div#main_content #col_964 #section_wrapper_1 #ask_middle_1 #ask_middle_col3 {float:left; width:184px; margin-right:17px;}
+div#main_content #col_964 #section_wrapper_1 #ask_middle_1 #ask_middle_col4 {float:left; width:184px; margin-right:17px;}
+div#main_content #col_964 #section_wrapper_1 #ask_middle_1 #ask_middle_col5 {float:left; width:192px;}
+div#main_content #col_964 #section_wrapper_1 #ask_bottom_1 {float:left; width:1000px; background-image:url(http://www.valetmag.com/gr/ask-valet/art-background_ask_bottom1.gif); background-repeat:repeat-y;}
+div#main_content #col_964 #section_wrapper_1 #ask_bottom_1 #ask_bottom_col1 {float:left; width:1000px; margin-right:35px;}
+div#main_content #col_964 #section_wrapper_1 #ask_bottom_1 #ask_bottom_col1_2 {float:left; width:629px; margin:10px 35px 0 0; background-image:url(http://www.valetmag.com/gr/ask-valet/art-background_ask_bottom2.gif); background-repeat:repeat-y;}
+div#main_content #col_964 #section_wrapper_1 #ask_bottom_1 #ask_bottom_col2 {float:left; width:300px;}
+div#main_content #col_964 #section_wrapper_1 #ask_subsection_1 {float:left; width:964px; background-image:url(http://www.valetmag.com/gr/ask-valet/art-background_ask_subsection1.gif); background-repeat:repeat-y;}
+div#main_content #col_964 #section_wrapper_1 #ask_subsection_1 #ask_subsection_col1 {float:left; width:250px;}
+div#main_content #col_964 #section_wrapper_1 #ask_subsection_1 #ask_subsection_col2 {float:right; width:630px;}
+
+div#main_content #col_964 #section_wrapper_1 #concierge_top_1 {float:left; width:964px; background-image:url(http://www.valetmag.com/gr/ask-valet/art-background_concierge_top1.gif); background-repeat:repeat-y;}
+div#main_content #col_964 #section_wrapper_1 #concierge_top_1 #concierge_top_col1 {float:left; width:245px; margin-right:35px;}
+div#main_content #col_964 #section_wrapper_1 #concierge_top_1 #concierge_top_col2 {float:left; width:684px;}
+div#main_content #col_964 #section_wrapper_1 #concierge_top_1 #concierge_top_col2 #concierge_row {float:left; width:684px; padding:3px 0 10px 0; border-bottom:solid 1px #f0f0f0; background-image:url(http://www.valetmag.com/gr/ask-valet/art-background_concierge_row1.gif); background-repeat:repeat-y;}
+div#main_content #col_964 #section_wrapper_1 #concierge_top_1 #concierge_top_col2 #concierge_row_gray {float:left; width:684px; padding:3px 0 10px 0; border-bottom:solid 1px #f0f0f0; background-image:url(http://www.valetmag.com/gr/ask-valet/art-background_concierge_row1.gif); background-repeat:repeat-y; background-color:#f0f0f0;}
+div#main_content #col_964 #section_wrapper_1 #concierge_top_1 #concierge_top_col2 #concierge_column_date {float:left; width:48px; margin:0 8px 0 8px; padding-top:8px;}
+div#main_content #col_964 #section_wrapper_1 #concierge_top_1 #concierge_top_col2 #concierge_column_location {float:left; width:68px; margin-right:16px; padding-top:8px; text-align:center;}
+div#main_content #col_964 #section_wrapper_1 #concierge_top_1 #concierge_top_col2 #concierge_column_location .concierge_location_icon {margin-bottom:3px; border-bottom:solid 1px #e0e0e0;}
+div#main_content #col_964 #section_wrapper_1 #concierge_top_1 #concierge_top_col2 #concierge_column_qa {float:left; width:524px; padding-top:8px;}
+
+
+
+  /* FOOTER*/
+
+     #foot{
+      vertical-align: center;
+      margin-top: 100px;
+      background-color: black;
+    }
+    #foot a {color: white;}
+    .footer_section {font:bold 135% "times new roman" !important; padding-bottom:15px !important;}
+    .footer_sub {font:normal 84.5% helvetica !important; line-height:18px !important; padding-bottom:10px !important;}
+     #col_96 #footer {width:964px; border-top:solid 2px #000000; border-bottom:solid 2px #dedede; margin:auto; padding:0;}
+     #col_96 #footer #footer_wrapper #footer_content {width:964px; height:155px; margin:15px 0 15px 0; padding:0; background-image:url(http://www.valetmag.com/gr/global/art-background_subnav2.gif); background-repeat:repeat-y;}
+     #col_96 #footer #footer_wrapper #footer_content .subnav_home {float:left; width:34px; margin-right:15px; padding:0;}
+     #col_96 #footer #footer_wrapper #footer_content .subnav_section {float:left; width:125px; margin-right:15px; padding:0;}
+     #col_96 #footer #footer_wrapper #footer_content .subnav_section2 {float:left; width:95px; margin-right:15px; padding:0;}
+     #col_96 #footer #footer_wrapper #footer_content .subnav_section3 {float:left; width:95px; margin:0; padding:0;}
+     #col_96 #footer2 {width:964px;margin:0; padding:0;}
+     #col_96 #footer2 #footer_wrapper {width:964px; margin:6px 0 6px 0; padding:0;}
+     #col_96 #footer2 #footer_wrapper #footer_content {width:964px; height:155px; margin:15px 0 15px 0; padding:0; background-image:url(http://www.valetmag.com/gr/global/art-background_subnav2.gif); background-repeat:repeat-y;}
+     #col_96 #footer2 #footer_wrapper #footer_content .subnav_home {float:left; width:34px; margin-right:15px; padding:0;}
+     #col_96 #footer2 #footer_wrapper #footer_content .subnav_section {float:left; width:125px; margin-right:15px; padding:0;}
+     #col_96 #footer2 #footer_wrapper #footer_content .subnav_section2 {float:left; width:95px; margin-right:15px; padding:0;}
+     #col_96 #footer2 #footer_wrapper #footer_content .subnav_section3 {float:left; width:95px; margin:0; padding:0;}
+     #col_96 #footer_breadcrumbs {float:left; width:964px; margin:6px 0 6px 0; padding:5px 0 5px 0; border-top:solid 1px #dedede;}
+     #legal {width:100%; margin-top: 20px;}
+    .media {width: 50px;}
+
+
+
+/* Browser Modules */
+div#browser {float:left; width:106px;}
+div#browser #browser_kicker {float:left; width:106px; text-align:center;}
+div#browser #browser_item_cap_on {float:left; width:106px; height:11px; background-image:url(http://www.valetmag.com/gr/global/art-background_browser_item_cap1.gif); background-repeat:no-repeat;}
+div#browser #browser_item_cap_hover {float:left; width:106px; height:11px; background-image:url(http://www.valetmag.com/gr/global/art-background_browser_item_cap2.gif); background-repeat:no-repeat;}
+div#browser #browser_item_cap_off {float:left; width:106px; height:11px; background-image:url(http://www.valetmag.com/gr/global/art-background_browser_item_cap3.gif); background-repeat:no-repeat;}
+div#browser #browser_item_body_on {float:left; width:106px; background-image:url(http://www.valetmag.com/gr/global/art-background_browser_item_body1.gif); background-repeat:repeat-y;}
+div#browser #browser_item_body_hover {float:left; width:106px; background-image:url(http://www.valetmag.com/gr/global/art-background_browser_item_body2.gif); background-repeat:repeat-y;}
+div#browser #browser_item_body_off {float:left; width:106px; background-image:url(http://www.valetmag.com/gr/global/art-background_browser_item_body3.gif); background-repeat:repeat-y;}
+div#browser #browser_item_body_on #browser_item_content {float:left; width:100px; height:115px; margin-left:3px; text-align:center; line-height:12px;}
+div#browser #browser_item_body_hover #browser_item_content {float:left; width:100px; height:115px; margin-left:3px; text-align:center; line-height:12px;}
+div#browser #browser_item_body_off #browser_item_content {float:left; width:100px; height:115px; margin-left:3px; text-align:center; line-height:12px;}
+div#browser #browser_item_footer_on {float:left; width:106px; height:11px; background-image:url(http://www.valetmag.com/gr/global/art-background_browser_item_footer1.gif); background-repeat:no-repeat;}
+div#browser #browser_item_footer_hover {float:left; width:106px; height:11px; background-image:url(http://www.valetmag.com/gr/global/art-background_browser_item_footer2.gif); background-repeat:no-repeat;}
+div#browser #browser_item_footer_off {float:left; width:106px; height:11px; background-image:url(http://www.valetmag.com/gr/global/art-background_browser_item_footer3.gif); background-repeat:no-repeat;}

@@ -1,0 +1,197 @@
+/* Footer
+    -------------------------------------------------- */
+    body {      
+      color: #5a5a5a;
+    }
+
+    #foot{
+      vertical-align: center;
+      margin-top: 100px;
+      background-color: black;
+    }
+    a {color: white;}
+    .footer_section {font:bold 135% "times new roman" ; padding-bottom:15px;}
+    .footer_sub {font:normal 84.5% helvetica; line-height:18px; padding-bottom:10px;}
+     #col_96 #footer {width:964px; border-top:solid 2px #000000; border-bottom:solid 2px #dedede; margin:auto; padding:0;}
+     #col_96 #footer #footer_wrapper #footer_content {width:964px; height:155px; margin:15px 0 15px 0; padding:0; background-image:url(http://www.valetmag.com/gr/global/art-background_subnav2.gif); background-repeat:repeat-y;}
+     #col_96 #footer #footer_wrapper #footer_content .subnav_home {float:left; width:34px; margin-right:15px; padding:0;}
+     #col_96 #footer #footer_wrapper #footer_content .subnav_section {float:left; width:125px; margin-right:15px; padding:0;}
+     #col_96 #footer #footer_wrapper #footer_content .subnav_section2 {float:left; width:95px; margin-right:15px; padding:0;}
+     #col_96 #footer #footer_wrapper #footer_content .subnav_section3 {float:left; width:95px; margin:0; padding:0;}
+     #col_96 #footer2 {width:964px;margin:0; padding:0;}
+     #col_96 #footer2 #footer_wrapper {width:964px; margin:6px 0 6px 0; padding:0;}
+     #col_96 #footer2 #footer_wrapper #footer_content {width:964px; height:155px; margin:15px 0 15px 0; padding:0; background-image:url(http://www.valetmag.com/gr/global/art-background_subnav2.gif); background-repeat:repeat-y;}
+     #col_96 #footer2 #footer_wrapper #footer_content .subnav_home {float:left; width:34px; margin-right:15px; padding:0;}
+     #col_96 #footer2 #footer_wrapper #footer_content .subnav_section {float:left; width:125px; margin-right:15px; padding:0;}
+     #col_96 #footer2 #footer_wrapper #footer_content .subnav_section2 {float:left; width:95px; margin-right:15px; padding:0;}
+     #col_96 #footer2 #footer_wrapper #footer_content .subnav_section3 {float:left; width:95px; margin:0; padding:0;}
+     #col_96 #footer_breadcrumbs {float:left; width:964px; margin:6px 0 6px 0; padding:5px 0 5px 0; border-top:solid 1px #dedede;}
+     #legal {width:100%; margin-top: 20px;}
+     p {margin: 0 100px;}
+    .media {width: 50px;}
+
+
+/* my nav */
+
+
+    #header, #nav {
+      overflow: hidden;
+    }
+    #header {
+      background-color: black;
+      line-height: 50px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #nav-collapse {
+      background-color: red;
+      line-height: 50px;
+      position: relative;
+    }
+    #logo {
+      float: left;
+      margin-left: 10%;
+      font-size: 50px;
+      font-family: "Academy Engraved LET";
+    }
+    #logo a:hover {
+      text-decoration: none;
+      color: white;
+    }
+    .search-box {
+      margin-top: 10px;
+    }
+    #logo2 {float: left;
+      margin-left: 11%;
+      font-size: 25px;
+      font-family: "Academy Engraved LET";
+      position: absolute;
+      left: 150px;
+      bottom: 45px;
+      color: white;
+    }
+    #loginReg {
+      float: right;
+      margin-right: 10%;
+    }
+    #nav-collapse {
+      margin-left: 10%;
+    }
+    form.chrome-search.pull-right {
+      margin: 0px;
+    }
+    #nav ul {
+    
+      font-size: 60px;
+      font-family: aria;
+    }
+    div.ul.li {
+      display: inline-block;
+      margin-right: 30px;
+    }
+    .navbar .nav {
+    position: relative;
+    left: 10%;
+    display: block;
+    float: left;
+    margin: 0 10px 0 0;
+    }
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      margin-top: 20px;
+      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+    .navbar-wrapper .navbar {
+
+    }
+
+    /* Remove border and change up box shadow for more contrast */
+    .navbar .navbar-inner {
+      
+      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+              box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    }
+
+    /* Downsize the brand/project name a bit */
+    .navbar .brand {
+      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+      font-size: 25px;
+      font-weight: bold;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    }
+
+    /* Navbar links: increase padding for taller navbar */
+    .navbar .nav > li > a {
+      padding: 15px 20px;
+    }
+
+    /* Offset the responsive button for proper vertical alignment */
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+
+    .ask {
+      float: right;
+      color: yellow;
+    }
+    .nav{
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+    .container-fluid {
+      margin-left: 3%;
+    }  
+
+   .container-fluid, .row-fluid {
+			overflow: hidden;
+		 }
+
+    #admain {height: 400px;
+    	background-color: y;
+    	float: left;
+    	
+    }
+    #adside {
+			height: 400px;
+			background-color: 	
+		}
+
+    #adup {
+    	background-color: gray;
+    }
+
+    #addown {
+    	background-color: gray;
+    }
+
+    #adup, #addown {
+			height: 210px;
+			margin: 10px;
+		}
+	#bodycontent {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1100px;
+	}
+
+
+  /*main ad */
+.ad {
+  width: 500px;
+  margin: 0;
+}
+
+#iframe {
+  margin-left: 5%;
+}

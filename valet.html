@@ -1,0 +1,260 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Valet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="valet">
+    <meta name="author" content="jun qian">
+
+    <!-- styles -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/valet.css" rel="stylesheet">
+  
+</head>
+
+  <body cz-shortcut-listen="true">
+
+
+   <!-- NAVBAR
+  ================================================== -->
+  
+  <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+
+        <div class="navbar navbar-fixed-top">
+          <div class="navbar-inner">
+            <div id="header">
+              <div id="logo"><a href="valet.html">Valet</a></div>
+              <div id="logo2">How can I help you today, Sir?</div>
+              <div id="loginReg">LOGIN | REGISTER</div>
+            </div>
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <div class="nav-collapse">
+              <ul class="nav" style="font-size:40px;">
+                <li><a href="style.html">Style</a></li>
+                <li><a href="grooming.html">Grooming</a></li>
+                <li><a href="living.html">Living</a></li>
+                <li><a href="ask.html">Ask Valet.</a></li>
+              </ul>
+              <form class="chrome-search pull-right" action="/chrome/search?hl=en"> 
+                <input class="search-box jfk-textinput" placeholder="Search" value=""  autocomplete="on" id="search-box" name="query" spellcheck="on" type="search"> 
+                <button class="jfk-button jfk-button-action chrome-search-button" id="search-button" type="submit"> 
+                  <img class="jfk-button-img" src="images/search-white.png" height="21" width="21"> 
+                </button> 
+              </form>      
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+
+      </div> <!-- /.container -->
+  </div><!-- /.navbar-wrapper -->
+
+
+
+  <!-- Carousel
+  ================================================== -->
+  <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner" style="margin-top:100px;">
+        <div class="item">
+          <img src="photo/style1.jpg" alt="Style">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>MENS STYLE</h1>
+              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <a class="btn btn-large btn-primary" href="style.html">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div class="item active">
+          <img src="photo/grooming1.jpg" alt="Grooming">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>MENS GROOMING</h1>
+              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <a class="btn btn-large btn-primary" href="grooming.html">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="photo/living1.jpg" alt="Living">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>MENS LIVING</h1>
+              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <a class="btn btn-large btn-primary" href="living.html">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+  </div><!-- /.carousel -->
+
+
+
+<!-- FOOTER -->
+<div id="foot">
+  <div id="col_96">
+  
+  <!-- Link Set -->
+    <div id="footer">
+    <div id="footer_wrapper">
+    <div id="footer_content">
+      
+        <!-- Home -->
+        <div class="subnav_home">
+        
+          <div id="footer_nav">
+            <ul id="footernav">
+              <li id="home"></li>
+            </ul>
+          </div>
+
+      </div>
+        <!-- Style -->
+        <div class="subnav_section">
+          
+          <div class="footer_section"><a href="style.html">Style</a></div>
+          <div class="footer_sub">
+            <a href="style.html">Trends</a><br>
+            <a href="style.html">Products</a><br>
+            <a href="style.html">Profiles &amp; Features</a><br>
+            <a href="style.html">How Tos</a><br>
+            <a href="style.html">Fashion Shows</a><br>
+            <a href="style.html">Columns</a>
+          </div>
+        
+        </div>
+        
+        <!-- Grooming -->
+        <div class="subnav_section">
+          
+          <div class="footer_section"><a href="grooming.html">Grooming</a></div>
+          <div class="footer_sub">
+            <a href="grooming.html">Skin Care</a><br>
+            <a href="grooming.html">Fragrances</a><br>
+            <a href="grooming.html">Profiles &amp; Features</a><br>
+            <a href="grooming.html">How Tos</a>
+          </div>
+        
+        </div>
+        
+        <!-- Living -->
+        <div class="subnav_section">
+          
+          <div class="footer_section"><a href="living.html">Living</a></div>
+          <div class="footer_sub">
+            <a href="living.html">Space</a><br>
+            <a href="living.html">Gear</a><br>
+            <a href="living.html">Food &amp; Drink</a><br>
+            <a href="living.html">Travel</a>
+          </div>
+        
+        </div>
+        
+        <!-- Ask Valet -->
+        <div class="subnav_section">
+          
+          <div class="footer_section"><a href="ask.html">Ask Valet.</a></div>
+          <div class="footer_sub">
+            <a href="ask.html">Hottest Questions</a><br>
+            <a href="ask.html">Valet of the week</a><br>
+            <a href="ask.html">Ask a Question</a><br>
+            <a href="ask.html">Question Browser</a><br>
+          </div> 
+        </div>
+
+        <!-- connections -->
+        <div class="subnav_section">
+          
+          <div class="footer_section"><a href="">Connections</a></div>
+          <div class="footer_sub">
+            <a href="http://www.vogue.com/">VOGUE</a><br>
+            <a href="http://dappered.com/">Dappered</a><br>
+            <a href="http://www.styleforum.net/">StyleForum</a><br>
+            <a href="http://atailoredsuit.com/">TailoredSuit</a><br>
+            <a href="http://www.elle.com/">ELLE</a><br>
+          </div>
+        </div>
+
+        <!-- About -->
+        <div class="subnav_section3">
+          
+          <div class="footer_section"><a href="http://www.valetmag.com/about/">About</a></div>
+          <div class="footer_sub">
+            <a href="http://www.valetmag.com/about/advertising/">Advertising</a><br>
+            <a href="http://www.valetmag.com/distribution/app.php">App</a><br>
+            <a href="http://www.valetmag.com/about/contact.php">Contact</a><br>
+            <a href="http://www.valetmag.com/distribution/eletter.php">eLetter</a><br>
+            <a href="http://www.valetmag.com/about/employment.php">Employment</a><br>
+            <a href="http://www.valetmag.com/distribution/gadget.php">Gadget</a><br>
+          </div>
+          </div>
+
+
+        <!-- Contact us -->
+        <div class="subnav_section2">
+          
+          <div class="footer_section" style="margin-bottom:8px; padding-bottom:4px; margin-left:25px;">
+            <a href="https://twitter.com/valetmag">
+              <img class="media" src="images/twitter.jpg" alt="Follow us on twitter"/></a>
+          </div>
+          <div class="footer_section" style="margin-bottom:8px; padding-bottom:4px; margin-left:25px;">
+            <a href="http://www.valetmag.com/distribution/rss.php"><img class="media" src="images/rss.jpg" alt="Follow our RSS"/></a>
+          </div>        
+          <div class="footer_sub">&nbsp;</div>
+        
+        </div>      
+      </div>
+    
+    </div><!-- Div Closing: Footer Content -->
+    </div>
+    </div>
+    <div class="clearboth"></div>
+    
+    <!-- Legal -->
+    <div id="legal">
+     <p class="pull-right"><a href="#">Back to top</a></p>
+        <p class="size_11">© Copyright 2013 Valet Media LLC - All Rights Reserved.&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.valetmag.com/about/privacy_policy.php">Privacy Policy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.valetmag.com/about/terms_conditions.php">Terms &amp; Conditions</a></p> 
+    </div><!-- Div Closing: Legal -->
+  </div>
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+    <script>
+      !function ($) {
+        $(function(){
+          // carousel demo
+          $('#myCarousel').carousel()
+        })
+      }(window.jQuery)
+    </script>
+    <script src="js/holder/holder.js"></script>
+  
+
+</body></html>

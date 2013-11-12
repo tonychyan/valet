@@ -1,0 +1,848 @@
+/* Typography */
+h1 {margin:0; padding:0;}
+h1.size_25 {margin-top:-5px; padding:0; font:bold 190% helvetica; color:#000;}
+h1.size_30 {margin-top:-5px; padding:0; font:bold 220% helvetica; color:#000;}
+h1.size_40 {margin:0; padding:0; font:bold 300% helvetica; color:#8b95a7;}
+h1.size_40 a {text-decoration:none; color:#8b95a7;}
+h1.size_40 a:hover {text-decoration:none; color:#545454;}
+h1.size_50 {float:left; margin-top:-8px; padding:0; font:bold 375% helvetica; color:#8b95a7;}
+h1.size_50 a {color: #8b95a7; text-decoration: none;}
+h1.size_50 a:hover {text-decoration: underline; color:#545454;}
+h2 {margin:0; padding-bottom:5px; font:bold 95% helvetica; color:#799adf; text-transform:uppercase;}
+h2 a {color:#799adf;}
+h2 a:hover {color:#545454; text-decoration:underline;}
+h2.dark {margin:0; padding-bottom:5px; font:bold 95% helvetica; color:#1c376e; text-transform:uppercase;}
+h2.dark a {color:#1c376e;}
+h2.dark a:hover {color:#545454; text-decoration:underline;}
+h2.gray {margin:0; padding-bottom:5px; font:bold 95% helvetica; color:#545454; text-transform:uppercase;}
+h2.gray a {color:#545454; text-decoration:none;}
+h2.gray a:hover {color:#545454; text-decoration:underline;}
+h2.gray_light {margin:0; padding:0; font:bold 95% helvetica; color:#b6b6b6; text-transform:uppercase;}
+h2.gray_light a {color:#b6b6b6;}
+h2.gray_light a:hover {color:#545454; text-decoration:underline;}
+h2.white {margin:0; padding:0; font:bold 95% helvetica; color:#fff; text-transform:uppercase;}
+h2.white a {color:#fff;}
+h2.white a:hover {color:#545454; text-decoration:underline;}
+h2.size_13 {float:left; padding:10px 0 0 8px; font:normal 104% helvetica; color:#545454; text-transform:none;}
+h2.size_13 a {color:#000;}
+h2.size_13 a:hover {color:#545454; text-decoration:underline;}
+h2.subsection {font:normal 180% helvetica; color:#799adf; text-transform:none;}
+h2.subsection a {color:#799adf;}
+h2.subsection a:hover {color:#545454; text-decoration:underline;}
+h2.module {float:left; margin-bottom:6px; padding:0px; font-size:31.5px; color:#545454; font-weight: bold; text-transform:none; line-height:25px;}
+h2.module a {color:#000; text-decoration:none;}
+h2.module a:hover {color:#545454; text-decoration:none;}
+h2.module_gray {float:left; margin-bottom:6px; padding:0px; font:italic 190% georgia; color:#545454; border-bottom:solid 2px #f0f0f0; text-transform:none; line-height:25px;}
+h2.module_gray a {color:#545454; text-decoration:none;}
+h2.module_gray a:hover {color:#000; text-decoration:none;}
+h2.module_gray2 {float:left; margin-bottom:6px; padding:0px; font:italic 150% georgia; color:#545454; border-bottom:solid 2px #f0f0f0; text-transform:none; line-height:20px;}
+h2.module_gray2 a {color:#545454; text-decoration:none;}
+h2.module_gray2 a:hover {color:#000; text-decoration:none;}
+h2.module_yellow {float:left; margin-bottom:6px; padding:0px; font:italic 190% georgia; color:#000; text-transform:none; line-height:25px;}
+h2.module_yellow a {color:#000; text-decoration:none;}
+h2.module_yellow a:hover {color:#545454; text-decoration:none;}
+h2.module_yellow2 {float:left; margin-bottom:6px; padding:0px; font:italic 150% georgia; color:#000; border-bottom:solid 2px #f3dc1d; text-transform:none; line-height:20px;}
+h2.module_yellow2 a {color:#000; text-decoration:none;}
+h2.module_yellow2 a:hover {color:#545454; text-decoration:none;}
+h2.handbook_topic {font:normal 180% helvetica; color:#d16106; text-transform:none;}
+h2.handbook_topic a {color:#d16106;}
+h2.handbook_topic a:hover {color:#545454; text-decoration:underline;}
+h2.sidebar {margin:0; padding-bottom:5px; font:bold 84.5% helvetica; color:#e0b60d; text-transform:uppercase;}
+h2.sidebar a {color:#e0b60d;}
+h2.sidebar a:hover {color:#545454; text-decoration:underline;}
+h2.asterisk {margin:0; padding-bottom:5px; font:bold 95% helvetica; color:#ab6828; text-transform:uppercase;}
+h2.asterisk a {color:#ab6828;}
+h2.asterisk a:hover {color:#545454; text-decoration:underline;}
+h2.handbook_title {margin:0; font:bold 84.5% helvetica; color:#d16106; text-transform:uppercase;}
+h2.handbook_title a {color:#d16106;}
+h2.handbook_title a:hover {color:#545454; text-decoration:underline;}
+h2.no_padding {margin:0; padding:0; font:bold 84.5% helvetica; color:#799adf; text-transform:uppercase;}
+h3 {font:bold 95% helvetica; color:#545454; margin:0; padding:0;}
+h3.size_15 {font:normal 115% helvetica; color:#545454;}
+h3.size_18 {font:normal 180% helvetica; color:#545454;}
+h4
+h5
+p {margin:0; padding:0; font:normal 95% helvetica; line-height:16px;}
+
+p.size_13 {margin:0; padding:0; font:normal 104% helvetica; line-height:18px;}
+p.size_18 {margin:0; padding:0; font:normal 130% helvetica; line-height:22px;}
+.size_12_black {margin:0; padding:0; font:normal 95% helvetica; color:#000; line-height:14px;}
+.size_12_black a {color:#000; text-decoration:none;}
+.size_12_black a:hover {color:#545454; text-decoration:underline;}
+.size_12_gray1 {margin:0; padding:0; font:normal 95% helvetica; color:#333333; line-height:14px;}
+.size_12_gray1 a {color:#333333; text-decoration:none;}
+.size_12_gray1 a:hover {color:#545454; text-decoration:underline;}
+.size_12_gray2 {margin:0; padding:0; font:normal 95% helvetica; color:#545454; line-height:14px;}
+.size_12_gray2 a {color:#545454; text-decoration:none;}
+.size_12_gray2 a:hover {color:#545454; text-decoration:underline;}
+.size_12_gray3 {margin:0; padding:0; font:normal 95% helvetica; color:#7a7a7a; line-height:14px;}
+.size_12_gray3 a {color:#7a7a7a; text-decoration:none;}
+.size_12_gray3 a:hover {color:#545454; text-decoration:underline;}
+.size_12_gray4 {margin:0; padding:0; font:normal 95% helvetica; color:#848484; line-height:14px;}
+.size_12_gray4 a {color:#848484; text-decoration:none;}
+.size_12_gray4 a:hover {color:#545454; text-decoration:underline;}
+.size_12_gray5 {margin:0; padding:0; font:normal 95% helvetica; color:#a4a4a4; line-height:14px;}
+.size_12_gray5 a {color:#a4a4a4; text-decoration:none;}
+.size_12_gray5 a:hover {color:#545454; text-decoration:underline;}
+.size_13_black {margin:0; padding:0; font:normal 104% helvetica; color:#000; line-height:15px;}
+.size_13_black a {color:#000; text-decoration:none;}
+.size_13_black a:hover {color:#545454; text-decoration:underline;}
+.size_13_gray1 {margin:0; padding:0; font:normal 104% helvetica; color:#333333; line-height:15px;}
+.size_13_gray1 a {color:#333333; text-decoration:none;}
+.size_13_gray1 a:hover {color:#545454; text-decoration:underline;}
+.size_13_gray2 {margin:0; padding:0; font:normal 104% helvetica; color:#545454; line-height:15px;}
+.size_13_gray2 a {color:#545454; text-decoration:none;}
+.size_13_gray2 a:hover {color:#545454; text-decoration:underline;}
+.size_13_gray3 {margin:0; padding:0; font:normal 104% helvetica; color:#7a7a7a; line-height:15px;}
+.size_13_gray3 a {color:#7a7a7a; text-decoration:none;}
+.size_13_gray3 a:hover {color:#545454; text-decoration:underline;}
+.size_13_gray4 {margin:0; padding:0; font:normal 104% helvetica; color:#848484; line-height:15px;}
+.size_13_gray4 a {color:#848484; text-decoration:none;}
+.size_13_gray4 a:hover {color:#545454; text-decoration:underline;}
+.size_13_gray5 {margin:0; padding:0; font:normal 104% helvetica; color:#a4a4a4; line-height:15px;}
+.size_13_gray5 a {color:#a4a4a4; text-decoration:none;}
+.size_13_gray5 a:hover {color:#545454; text-decoration:underline;}
+.size_15_black {margin:0; padding:0; font:normal 115% helvetica; color:#000; line-height:18px;}
+.size_15_black a {color:#000; text-decoration:none;}
+.size_15_black a:hover {color:#545454; text-decoration:underline;}
+.size_15_gray1 {margin:0; padding:0; font:normal 115% helvetica; color:#333333; line-height:18px;}
+.size_15_gray1 a {color:#333333; text-decoration:none;}
+.size_15_gray1 a:hover {color:#545454; text-decoration:underline;}
+.size_15_gray2 {margin:0; padding:0; font:normal 115% helvetica; color:#545454; line-height:18px;}
+.size_15_gray2 a {color:#545454; text-decoration:none;}
+.size_15_gray2 a:hover {color:#545454; text-decoration:underline;}
+.size_15_gray3 {margin:0; padding:0; font:normal 115% helvetica; color:#7a7a7a; line-height:18px;}
+.size_15_gray3 a {color:#7a7a7a; text-decoration:none;}
+.size_15_gray3 a:hover {color:#545454; text-decoration:underline;}
+.size_15_gray4 {margin:0; padding:0; font:normal 115% helvetica; color:#848484; line-height:18px;}
+.size_15_gray4 a {color:#848484; text-decoration:none;}
+.size_15_gray4 a:hover {color:#545454; text-decoration:underline;}
+.size_15_gray5 {margin:0; padding:0; font:normal 115% helvetica; color:#a4a4a4; line-height:18px;}
+.size_15_gray5 a {color:#a4a4a4; text-decoration:none;}
+.size_15_gray5 a:hover {color:#545454; text-decoration:underline;}
+.size_18_black {margin:0; padding:0; font:normal 130% helvetica; color:#000; line-height:22px;}
+.size_18_black a {color:#000; text-decoration:none;}
+.size_18_black a:hover {color:#545454; text-decoration:underline;}
+.size_18_gray1 {margin:0; padding:0; font:normal 130% helvetica; color:#333333; line-height:22px;}
+.size_18_gray1 a {color:#333333; text-decoration:none;}
+.size_18_gray1 a:hover {color:#545454; text-decoration:underline;}
+.size_18_gray2 {margin:0; padding:0; font:normal 130% helvetica; color:#545454; line-height:22px;}
+.size_18_gray2 a {color:#545454; text-decoration:none;}
+.size_18_gray2 a:hover {color:#545454; text-decoration:underline;}
+.size_18_gray3 {margin:0; padding:0; font:normal 130% helvetica; color:#7a7a7a; line-height:22px;}
+.size_18_gray3 a {color:#7a7a7a; text-decoration:none;}
+.size_18_gray3 a:hover {color:#545454; text-decoration:underline;}
+.size_18_gray4 {margin:0; padding:0; font:normal 130% helvetica; color:#848484; line-height:22px;}
+.size_18_gray4 a {color:#848484; text-decoration:none;}
+.size_18_gray4 a:hover {color:#545454; text-decoration:underline;}
+.size_18_gray5 {margin:0; padding:0; font:normal 130% helvetica; color:#a4a4a4; line-height:22px;}
+.size_18_gray5 a {color:#a4a4a4; text-decoration:none;}
+.size_18_gray5 a:hover {color:#545454; text-decoration:underline;}
+p.intro {margin:0; padding:0; font:normal 95% helvetica; line-height:18px;}
+p.article {margin:0; padding:0; font:normal 104% helvetica; line-height:22px;}
+p.ad_label {margin:0; padding:2px 0 2px 0; font:normal 80% helvetica; color:#cecece;}
+p.white {margin:0; padding:0; font:normal 95% helvetica; color:#fff; line-height:16px;}
+p.white a {color:#fff;}
+p.white a:hover {color:#545454; text-decoration:underline;}
+p.gray {margin:0; padding:0; font:normal 95% helvetica; color:#545454; line-height:16px;}
+p.gray a {color:#545454;}
+p.gray a:hover {color:#545454; text-decoration:underline;}
+p.gray_light {margin:0; padding:0; font:normal 95% helvetica; color:#a4a4a4; line-height:16px;}
+p.gray_light a {color:#000;}
+p.gray_light a:hover {color:#545454; text-decoration:underline;}
+form {margin:0; padding:0;}
+.title_13 {padding-bottom:2px; font:normal 104% helvetica; color:#545454; line-height:15px;}
+.title_13_white {padding-bottom:2px; font:normal 104% helvetica; color:#fff; line-height:15px;}
+.title_13_white a {color:#fff;}
+.title_13_white a:hover {color:#545454; text-decoration:underline;}
+.title_15 {padding-bottom:2px; font:normal 115% helvetica; color:#545454; line-height:17px;}
+.title_15_white {padding-bottom:2px; font:normal 115% helvetica; color:#fff; line-height:17px;}
+.title_15_white a {color:#fff;}
+.title_15_white a:hover {color:#545454; text-decoration:underline;}
+.title_18 {padding-bottom:2px; font:normal 140% helvetica; color:#545454; line-height:19px;}
+.title_18_white {padding-bottom:2px; font:normal 140% helvetica; color:#fff; line-height:17px;}
+.title_18_white a {color:#fff;}
+.title_18_white a:hover {color:#545454; text-decoration:underline;}
+.title_20 {padding-bottom:2px; font:normal 150% helvetica; color:#545454; line-height:20px;}
+.title_20_white {padding-bottom:2px; font:normal 150% helvetica; color:#fff; line-height:20px;}
+.title_20_white a {color:#fff;}
+.title_20_white a:hover {color:#545454; text-decoration:underline;}
+.title_22 {padding-bottom:2px; font:normal 175% helvetica; color:#545454; line-height:24px;}
+.title_22_white {padding-bottom:2px; font:normal 175% helvetica; color:#fff; line-height:24px;}
+.title_22_white a {color:#fff;}
+.title_22_white a:hover {color:#545454; text-decoration:underline;}
+.title_25 {padding-bottom:2px; font:normal 190% helvetica; color:#545454; line-height:25px;}
+.title_25_white {padding-bottom:2px; font:normal 190% helvetica; color:#fff; line-height:25px;}
+.title_25_white a {color:#fff;}
+.title_25_white a:hover {color:#545454; text-decoration:underline;}
+.title_28 {padding-bottom:2px; font:normal 205% helvetica; color:#545454; line-height:25px;}
+.title_28_white {padding-bottom:2px; font:normal 205% helvetica; color:#fff; line-height:25px;}
+.title_28_white a {color:#fff;}
+.title_28_white a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_11 {font:normal 84.5% georgia; color:#545454; line-height:12px;}
+.title_georgia_11 a {color:#000;}
+.title_georgia_11 a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_12 {padding-bottom:2px; font:normal 95% georgia; color:#545454; line-height:12px;}
+.title_georgia_12 a {color:#000;}
+.title_georgia_12 a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_13 {padding-bottom:2px; font:normal 104% georgia; color:#545454; line-height:20px;}
+.title_georgia_13 a {color:#000;}
+.title_georgia_13 a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_13_white {padding-bottom:2px; font:normal 104% georgia; color:#fff; line-height:20px;}
+.title_georgia_13_white a {color:#fff;}
+.title_georgia_13_white a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_15 {padding-bottom:2px; font:normal 115% georgia; color:#545454; line-height:17px;}
+.title_georgia_15 a {color:#000;}
+.title_georgia_15 a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_15_white {padding-bottom:2px; font:normal 115% georgia; color:#fff; line-height:17px;}
+.title_georgia_15_white a {color:#fff;}
+.title_georgia_15_white a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_18 {padding-bottom:2px; font:normal 130% georgia; color:#545454; line-height:17px;}
+.title_georgia_18 a {color:#000;}
+.title_georgia_18 a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_18_gray {padding-bottom:2px; font:normal 130% georgia; color:#545454; line-height:17px;}
+.title_georgia_18_gray a {color:#545454;}
+.title_georgia_18_gray a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_18_white {padding-bottom:2px; font:normal 130% georgia; color:#fff; line-height:17px;}
+.title_georgia_18_white a {color:#fff;}
+.title_georgia_18_white a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_20 {padding-bottom:2px; font:normal 150% georgia; color:#545454; line-height:20px;}
+.title_georgia_20 a {color:#000;}
+.title_georgia_20 a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_20_white {padding-bottom:2px; font:normal 150% georgia; color:#fff; line-height:20px;}
+.title_georgia_20_white a {color:#fff;}
+.title_georgia_20_white a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_22 {padding-bottom:2px; font:normal 175% georgia; color:#545454; line-height:24px;}
+.title_georgia_22 a {color:#000;}
+.title_georgia_22 a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_22_white {padding-bottom:2px; font:normal 175% georgia; color:#fff; line-height:24px;}
+.title_georgia_22_white a {color:#fff;}
+.title_georgia_22_white a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_25 {padding-bottom:2px; font:normal 190% georgia; color:#545454; line-height:25px;}
+.title_georgia_25 a {color:#000;}
+.title_georgia_25 a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_25_white {padding-bottom:2px; font:normal 190% georgia; color:#fff; line-height:25px;}
+.title_georgia_25_white a {color:#fff;}
+.title_georgia_25_white a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_30 {padding-bottom:5px; font:normal 220% georgia; color:#545454; line-height:28px;}
+.title_georgia_30 a {color:#000;}
+.title_georgia_30 a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_30_white {padding-bottom:5px; font:normal 220% georgia; color:#fff; line-height:28px;}
+.title_georgia_30_white a {color:#fff;}
+.title_georgia_30_white a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_35 {padding-bottom:5px; font:normal 280% georgia; color:#545454; line-height:32px;}
+.title_georgia_35 a {color:#000;}
+.title_georgia_35 a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_35_white {padding-bottom:5px; font:normal 280% georgia; color:#fff; line-height:32px;}
+.title_georgia_35_white a {color:#fff;}
+.title_georgia_35_white a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_40 {padding-bottom:6px; font:normal 300% georgia; color:#545454; line-height:35px;}
+.title_georgia_40 a {color:#000;}
+.title_georgia_40 a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_40_white {padding-bottom:6px; font:normal 300% georgia; color:#fff; line-height:35px;}
+.title_georgia_40_white a {color:#fff;}
+.title_georgia_40_white a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_45 {padding-bottom:6px; font:normal 340% georgia; color:#545454; line-height:40px;}
+.title_georgia_45 a {color:#000;}
+.title_georgia_45 a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_45_white {padding-bottom:6px; font:normal 340% georgia; color:#fff; line-height:40px;}
+.title_georgia_45_white a {color:#fff;}
+.title_georgia_45_white a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_50 {padding-bottom:6px; font:normal 380% georgia; color:#545454; line-height:44px;}
+.title_georgia_50 a {color:#000;}
+.title_georgia_50 a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_50_white {padding-bottom:6px; font:normal 380% georgia; color:#fff; line-height:44px;}
+.title_georgia_50_white a {color:#fff;}
+.title_georgia_50_white a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_60 {padding-bottom:8px; font:normal 480% georgia; color:#545454; line-height:54px;}
+.title_georgia_60 a {color:#000;}
+.title_georgia_60 a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_60_white {padding-bottom:8px; font:normal 480% georgia; color:#fff; line-height:54px;}
+.title_georgia_60_white a {color:#fff;}
+.title_georgia_60_white a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_70 {padding-bottom:8px; font:normal 560% georgia; color:#545454; line-height:58px;}
+.title_georgia_70 a {color:#000;}
+.title_georgia_70 a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_70_white {padding-bottom:8px; font:normal 560% georgia; color:#fff; line-height:58px;}
+.title_georgia_70_white a {color:#fff;}
+.title_georgia_70_white a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_80 {padding-bottom:8px; font:normal 620% georgia; color:#545454; line-height:64px;}
+.title_georgia_80 a {color:#000;}
+.title_georgia_80 a:hover {color:#545454; text-decoration:underline;}
+.title_georgia_80_white {padding-bottom:8px; font:normal 620% georgia; color:#fff; line-height:64px;}
+.title_georgia_80_white a {color:#fff;}
+.title_georgia_80_white a:hover {color:#545454; text-decoration:underline;}
+.wf-inactive .title_yanone_60 {padding-bottom:6px; font-family:helvetica; font-size:480%; color:#000;}
+.wf-active .title_yanone_60 {padding-bottom:6px; font:bold 480% 'Yanone Kaffeesatz'; color:#000; line-height:54px; text-transform:uppercase; text-rendering:optimizeLegibility;}
+.wf-inactive .column_module_gray {font-family:helvetica}
+.wf-active .column_module_gray {font-family:'Reenie Beanie', serif; font-size:25px; text-rendering:optimizeLegibility;}
+.author {font:bold 95% helvetica; text-transform:uppercase;}
+.author_small {font:bold 85% helvetica; text-transform:uppercase;}
+.author_small2 {font:bold 70% helvetica; text-transform:uppercase;}
+.author2 {float:right; padding-top:5px; font:italic 95% helvetica; color:#a4a4a4; line-height:15px; text-align:right;}
+.date_stamp {font:normal 95% helvetica;}
+.photo_cutline {padding-top:5px; font:normal 95% helvetica; color:#a4a4a4; line-height:15px;}
+.field_label {padding-bottom:2px; font:bold 95% helvetica; color:#b6b6b6; line-height:12px;}
+.drop_cap {font:bold 220% helvetica; color:#333;} 
+.question {font:bold 120% helvetica; color:#8b95a7; line-height:18px;}
+.question a {color:#51668b;}
+.question a:hover {color:#545454; text-decoration:underline;}
+.orange_dark {margin:0; padding:0; color:#ab6828;}
+.orange_dark a {color:#842210;}
+.orange_dark a:hover {color:#545454; text-decoration:underline;}
+.orange_dark2 {margin:0; padding:0; color:#ab6828;}
+.orange_dark2 a {color:#ab6828;}
+.orange_dark2 a:hover {color:#545454; text-decoration:underline;}
+.yellow_dark {margin:0; padding:0; color:#e0b60d;}
+.yellow_dark a {color:#e0b60d;}
+.yellow_dark a:hover {color:#545454; text-decoration:underline;}
+.green_light {margin:0; padding:0; color:#a2bd01;}
+.green_light a {text-decoration:none; color:#748700;}
+.green_light a:hover {text-decoration:underline; color:#545454;}
+.green_dark {margin:0; padding:0; color:#748700;}
+.blue_light {margin:0; padding:0; color:#8b95a7;}
+.blue_light a {color:#374b6f;}
+.blue_light a:hover {color:#545454; text-decoration:underline;}
+.gray_light {color:#a4a4a4;}
+.gray_light a {color:#a4a4a4;}
+.gray_light a:hover {color:#545454; text-decoration:underline;}
+.highlight1 {padding:3px 5px 3px 5px; background-image:url(http://www.valetmag.com/gr/global/art-highlight1.jpg); background-repeat:repeat-x; background-position:0 3px;}
+.timestamp_red_solid {float:left; margin-bottom:6px; padding:3px; background-color:#842210; font:normal 84.5% helvetica; color:#fff; text-transform:uppercase;}
+.timestamp_red_outline {float:left; margin-bottom:6px; padding:2px 3px 2px 3px; border:solid 1px #842210; font:normal 84.5% helvetica; color:#545454; text-transform:uppercase;}
+.timestamp_orange_solid {float:left; margin-bottom:6px; padding:3px; background-color:#ea9148; font:normal 84.5% helvetica; color:#fff; text-transform:uppercase;}
+.timestamp_orange_outline {float:left; margin-bottom:6px; padding:2px 3px 2px 3px; border:solid 1px #ea9148; font:normal 84.5% helvetica; color:#545454; text-transform:uppercase;}
+.timestamp_yellow_solid {float:left; margin-bottom:6px; padding:3px; background-color:#f3dc1d; font:normal 84.5% helvetica; color:#000; text-transform:uppercase;}
+.timestamp_yellow_outline {float:left; margin-bottom:6px; padding:2px 3px 2px 3px; border:solid 1px #f3dc1d; font:normal 84.5% helvetica; color:#545454; text-transform:uppercase;}
+.timestamp_gray_solid {float:left; margin-bottom:6px; padding:3px; background-color:#dadada; font:normal 84.5% helvetica; color:#545454; text-transform:uppercase;}
+.timestamp_gray_outline {float:left; margin-bottom:6px; padding:2px 3px 2px 3px; background-color:#fff; border:solid 1px #dadada; font:normal 84.5% helvetica; color:#545454; text-transform:uppercase;}
+.timestamp_gray_location {float:left; margin-right:12px; padding-top:3px; background-color:#fff; border:solid 1px #dadada; font:normal 84.5% helvetica; color:#545454; text-transform:uppercase; text-align:center;}
+.timestamp_gray_index {float:left; margin-bottom:6px; padding:2px 3px 2px 3px; border:solid 1px #f0f0f0; font:normal 84.5% helvetica; color:#545454; text-transform:uppercase;}
+.timestamp_gray_index_solid {float:left; margin-bottom:6px; padding:2px 3px 2px 3px; background-color:#fff; border:solid 1px #f0f0f0; font:normal 84.5% helvetica; color:#545454; text-transform:uppercase;}
+.timestamp_red_index {float:left; margin-bottom:6px; padding:2px 3px 2px 3px; border:solid 1px #f0f0f0; font:normal 84.5% helvetica; color:#d50000; text-transform:uppercase;}
+.timestamp_red_index_solid {float:left; margin-bottom:6px; padding:2px 3px 2px 3px; border:solid 1px #f0f0f0; font:normal 84.5% helvetica; color:#d50000; text-transform:uppercase; background-color:#fff;}
+.timestamp_white_index {float:left; margin-bottom:6px; padding:2px 3px 2px 3px; border:solid 1px #f0f0f0; font:normal 84.5% helvetica; color:#f0f0f0; text-transform:uppercase;}
+.kicker_date {float:left; background-color:#f3dc1d; margin-bottom:8px; padding:2px 8px 2px 8px; font:bold 11px helvetica; color:#000; text-transform:uppercase;}
+.kicker_date a {color:#000; text-decoration:none;}
+.kicker_date a:hover {color:#545454; text-decoration:underline;}
+.divider1 {height:1px; margin:0; padding:0; border-top:solid 1px #e0e0e0;}
+.divider2 {height:1px; width:75%; margin:0 50px 0 50px; padding:0; border-top:solid 1px #f0f0f0;}
+.divider3 {height:1px; margin:0; padding:0; border-top:solid 1px #f0f0f0;}
+.divider4 {height:1px; margin:0; padding:0; border-top:solid 2px #fff;}
+.divider_double1 {height:8px; background-image:url(http://www.valetmag.com/gr/global/art-background_double_lines1.gif); background-repeat:repeat-x;}
+.divider_double2 {height:8px; background-image:url(http://www.valetmag.com/gr/global/art-background_double_lines2.gif); background-repeat:repeat-x;}
+.the_handbook_logo1 {position:absolute; left:97px; top:216px; width:254px; height:89px; z-index:1; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.valetmag.com/gr/the-handbook/art-the_handbook_254x89.png',sizingMethod='scale');}
+.the_handbook_logo2 {position:absolute; left:21px; top:115px; width:254px; height:89px; z-index:1; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.valetmag.com/gr/the-handbook/art-the_handbook_254x89.png',sizingMethod='scale');}
+.the_handbook_logo3 {position:relative; width:130px; height:46px; z-index:1; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.valetmag.com/gr/the-handbook/art-the_handbook_130x46.png',sizingMethod='scale');}
+.the_handbook_logo4 {float:left; width:110px; height:38px; z-index:1; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.valetmag.com/gr/the-handbook/art-the_handbook_110x38.png',sizingMethod='scale');}
+.the_handbook_logo5 {position:relative; width:75px; height:32px; z-index:1; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.valetmag.com/gr/the-handbook/art-the_handbook_75x32.png',sizingMethod='scale');}
+.the_handbook_logo6 {position:absolute; left:97px; top:114px; width:254px; height:89px; z-index:1; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.valetmag.com/gr/the-handbook/art-the_handbook_254x89.png',sizingMethod='scale');}
+.breadcrumbs_title {padding-top:1px; font:bold 80% helvetica; text-transform:uppercase;}
+.subhead_top {font:normal 110% georgia; color:#666; margin:0; padding:0; border-top:solid 1px #e2e2e2; text-transform:uppercase;}
+.subhead_middle {font:normal 110% georgia; color:#666; margin:0; padding:0; border-top:solid 1px #e2e2e2; text-transform:uppercase;}
+.subhead_bottom {font:normal 110% georgia; color:#666; margin:0; padding:0; border-top:solid 1px #e2e2e2; border-bottom:solid 1px #e2e2e2; text-transform:uppercase;}
+.subhead_top_black {font:normal 110% georgia; color:#313131; margin:0; padding:0; border-top:solid 1px #8a8a8a; text-transform:uppercase;}
+.subhead_middle_black {font:normal 110% georgia; color:#313131; margin:0; padding:0; border-top:solid 1px #8a8a8a; text-transform:uppercase;}
+.subhead_bottom_black {font:normal 110% georgia; color:#313131; margin:0; padding:0; border-top:solid 1px #8a8a8a; border-bottom:solid 1px #8a8a8a; text-transform:uppercase;}
+.subhead_top_gray {font:normal 110% georgia; color:#313131; margin:0; padding:0; border-top:solid 1px #b1b0b0; text-transform:uppercase;}
+.subhead_middle_gray {font:normal 110% georgia; color:#313131; margin:0; padding:0; border-top:solid 1px #b1b0b0; text-transform:uppercase;}
+.subhead_bottom_gray {font:normal 110% georgia; color:#313131; margin:0; padding:0; border-top:solid 1px #b1b0b0; border-bottom:solid 1px #b1b0b0; text-transform:uppercase;}
+.subhead_top_white {font:normal 110% georgia; color:#a4a4a4; margin:0; padding:0; border-top:solid 1px #e2e2e2; text-transform:uppercase;}
+.subhead_middle_white {font:normal 110% georgia; color:#a4a4a4; margin:0; padding:0; border-top:solid 1px #e2e2e2; text-transform:uppercase;}
+.subhead_bottom_white {font:normal 110% georgia; color:#a4a4a4; margin:0; padding:0; border-top:solid 1px #e2e2e2; border-bottom:solid 1px #e2e2e2; text-transform:uppercase;}
+.footer_section {font:bold 95% helvetica; padding-bottom:3px;}
+.footer_sub {font:normal 84.5% helvetica; line-height:18px; padding-bottom:10px;}
+
+
+/* Links */
+a {color:#000; text-decoration:none;}
+a:hover {color:#545454; text-decoration:underline;}
+ul#blank {position:relative; padding:0px; margin:0px;}
+ul#blank li {padding:0; margin:0; list-style-type:none; text-indent:-9999px;}
+ul#blank li a {border:0; display:block;}
+ul#blank li#link a {float:left; width:100%; height:100%; margin:0; padding:0;}
+
+
+/* Art */
+img {margin:0; padding:0; border:0;}
+.img_left {float:left; margin:0 12px 0 0;}
+.img_right {float:right; margin:0 0 0 12px;}
+.img_full {float:left; margin:0 0 10px 0;}
+.img_solid_left {float:left; margin:0 8px 0 0; padding:1px; border:solid 1px #dadada;}
+.img_solid_right {float:right; margin:0 0 0 8px; padding:1px; border:solid 1px #dadada;}
+.img_solid_full {float:left; padding:1px; border:solid 1px #dadada;}
+.img_browser_left {float:left; margin:0 0 5px 0; padding:1px; border:solid 1px #fff;}
+.img_browser_right {float:right; margin:0 0 5px 0; padding:1px; border:solid 1px #fff; background-color:#fff;}
+.img_browser_full {float:left; margin:0 0 5px 0; padding:2px; background-color:#fff;}
+.img_browser_full_off {float:left; margin:0 0 5px 0; padding:2px; background-color:#f0f0f0;}
+
+
+/* ul */
+ul#square {margin:0; padding:0; list-style-type:none;}
+li#square {background:url(http://www.valetmag.com/gr/global/art-bullet1.gif); background-repeat:no-repeat; background-position:0 5px; margin-bottom:3px; text-indent:8px;}
+ul#square2 {margin:0; padding:0; list-style-type:none;}
+li#square2 {background:url(http://www.valetmag.com/gr/global/art-bullet2.gif); background-repeat:no-repeat; background-position:0 5px; margin-bottom:3px; text-indent:8px;}
+ul#publication_fyi {float:left; width:85px; margin-right:20px; background-color:#f0f0f0; list-style-type:none; text-align:center;}
+ul#publication_fyi li#publication_logo {padding:5px 5px 1px 5px;}
+ul#publication_fyi li#publication_note {padding:5px; font:italic 84.5% georgia; color:#545454; line-height:12px;}
+ul#publication_fyi li#publication_divider {width:35px; height:1px; margin-left:25px; border-top:solid 1px #fff;}
+ul#bio_fyi {float:left; width:84px; margin:0 20px 10px 0; background-color:#f0f0f0; list-style-type:none; text-align:center;}
+ul#bio_fyi li#bio_mugshot {margin:1px; border:solid 1px #fff;}
+ul#bio_fyi li#bio_note {padding:5px; font:italic 84.5% georgia; color:#545454; line-height:12px;}
+ul#bio_fyi li#bio_divider {width:34px; height:1px; margin-left:25px; border-top:solid 1px #fff;}
+
+
+/* Skip Nav */
+#skip a, #skip a:hover, #skip a:visited {position:absolute; left:0px; top:-500px; width:1px; height:1px; overflow:hidden;} 
+#skip a:active, #skip a:focus {position:static; width:auto; height:auto;}
+
+
+/* Icons */
+.icon_hot_spots1 {float:left; width:115px; height:18px; background-image:url(http://www.valetmag.com/gr/global/art-icon_eletter1.gif);}
+#icon_eletter1 {float:left; width:55px; height:55px;}
+#icon_eletter1 ul#eletter1 {position:relative; width:55px; height:55px; margin:0px; padding:0px; background-image:url(http://www.valetmag.com/gr/global/art-icon_eletter1.gif); background-repeat:repeat-x; background-position:right top;}
+#icon_eletter1 ul#eletter1 li {padding:0; margin:0; list-style-type:none; float:left; text-indent:-9999px;}
+#icon_eletter1 ul#eletter1 li a {border:0; text-decoration:none; display:block; background-color:transparent; background-image:url(http://www.valetmag.com/gr/global/art-icon_eletter1.gif); background-repeat:no-repeat;}
+#icon_eletter1 li#eletter_button a {width:55px; height:55px;}
+#icon_eletter1 li#eletter_button a:link, li#eletter_button a:visited {background-position:0px 0px;}
+#icon_eletter1 li#eletter_button a:hover, li#eletter_button a:focus {background-position:0px -55px;}
+body#eletter ul#eletter1 li#eletter_button a {background-position:0px -110px;}
+#icon_widget1 {float:left; width:55px; height:55px;}
+#icon_widget1 ul#widget1 {position:relative; width:055px; height:55px; margin:0px; padding:0px; background-image:url(http://www.valetmag.com/gr/global/art-icon_widget1.gif); background-repeat:repeat-x; background-position:right top;}
+#icon_widget1 ul#widget1 li {padding:0; margin:0; list-style-type:none; float:left; text-indent:-9999px;}
+#icon_widget1 ul#widget1 li a {border:0; text-decoration:none; display:block; background-color:transparent; background-image:url(http://www.valetmag.com/gr/global/art-icon_widget1.gif); background-repeat:no-repeat;}
+#icon_widget1 li#widget_button a {width:55px; height:55px;}
+#icon_widget1 li#widget_button a:link, li#widget_button a:visited {background-position:0px 0px;}
+#icon_widget1 li#widget_button a:hover, li#widget_button a:focus {background-position:0px -55px;}
+body#widget ul#widget1 li#widget_button a {background-position:0px -110px;}
+#icon_gadget1 {float:left; width:55px; height:55px;}
+#icon_gadget1 ul#gadget1 {position:relative; width:55px; height:55px; margin:0px; padding:0px; background-image:url(http://www.valetmag.com/gr/global/art-icon_gadget1.gif); background-repeat:repeat-x; background-position:right top;}
+#icon_gadget1 ul#gadget1 li {padding:0; margin:0; list-style-type:none; float:left; text-indent:-9999px;}
+#icon_gadget1 ul#gadget1 li a {border:0; text-decoration:none; display:block; background-color:transparent; background-image:url(http://www.valetmag.com/gr/global/art-icon_gadget1.gif); background-repeat:no-repeat;}
+#icon_gadget1 li#gadget_button a {width:55px; height:55px;}
+#icon_gadget1 li#gadget_button a:link, li#gadget_button a:visited {background-position:0px 0px;}
+#icon_gadget1 li#gadget_button a:hover, li#gadget_button a:focus {background-position:0px -55px;}
+body#gadget ul#gadget1 li#gadget_button a {background-position:0px -110px;}
+#icon_rss1 {float:left; width:55px; height:55px;}
+#icon_rss1 ul#rss1 {position:relative; width:55px; height:55px; margin:0px; padding:0px; background-image:url(http://www.valetmag.com/gr/global/art-icon_rss1.gif); background-repeat:repeat-x; background-position:right top;}
+#icon_rss1 ul#rss1 li {padding:0; margin:0; list-style-type:none; float:left; text-indent:-9999px;}
+#icon_rss1 ul#rss1 li a {border:0; text-decoration:none; display:block; background-color:transparent; background-image:url(http://www.valetmag.com/gr/global/art-icon_rss1.gif); background-repeat:no-repeat;}
+#icon_rss1 li#rss_button a {width:55px; height:55px;}
+#icon_rss1 li#rss_button a:link, li#rss_button a:visited {background-position:0px 0px;}
+#icon_rss1 li#rss_button a:hover, li#rss_button a:focus {background-position:0px -55px;}
+body#rss ul#rss1 li#rss_button a {background-position:0px -110px;}
+#icon_twitter1 {float:left; width:55px; height:55px;}
+#icon_twitter1 ul#twitter1 {position:relative; width:55px; height:55px; margin:0px; padding:0px; background-image:url(http://www.valetmag.com/gr/global/art-icon_twitter1.gif); background-repeat:repeat-x; background-position:right top;}
+#icon_twitter1 ul#twitter1 li {padding:0; margin:0; list-style-type:none; float:left; text-indent:-9999px;}
+#icon_twitter1 ul#twitter1 li a {border:0; text-decoration:none; display:block; background-color:transparent; background-image:url(http://www.valetmag.com/gr/global/art-icon_twitter1.gif); background-repeat:no-repeat;}
+#icon_twitter1 li#twitter_button a {width:55px; height:55px;}
+#icon_twitter1 li#twitter_button a:link, li#twitter_button a:visited {background-position:0px 0px;}
+#icon_twitter1 li#twitter_button a:hover, li#twitter_button a:focus {background-position:0px -55px;}
+body#twitter ul#twitter1 li#twitter_button a {background-position:0px -110px;}
+#icon_site_tools1 {float:left; width:55px; height:55px;}
+#icon_site_tools1 ul#site_tools1 {position:relative; width:337px; height:82px; margin:0px; padding:0px; background-image:url(http://www.valetmag.com/gr/global/art-icon_site_tools1.gif); background-repeat:repeat-x; background-position:right top;}
+#icon_site_tools1 ul#site_tools1 li {padding:0; margin:0; list-style-type:none; float:left; text-indent:-9999px;}
+#icon_site_tools1 ul#site_tools1 li a {border:0; text-decoration:none; display:block; background-color:transparent; background-image:url(http://www.valetmag.com/gr/global/art-icon_site_tools1.gif); background-repeat:no-repeat;}
+#icon_site_tools1 li#site_rss_button a {width:80px; height:82px;}
+#icon_site_tools1 li#site_eletter_button a {width:80px; height:82px;}
+#icon_site_tools1 li#site_widget_button a {width:80px; height:82px;}
+#icon_site_tools1 li#site_questions_button a {width:97px; height:82px;}
+#icon_site_tools1 li#site_rss_button a:link, li#site_rss_button a:visited {background-position:0px 0px;}
+#icon_site_tools1 li#site_rss_button a:hover, li#site_rss_button a:focus {background-position:0px -82px;}
+#icon_site_tools1 li#site_eletter_button a:link, li#site_eletter_button a:visited {background-position:-80px 0px;}
+#icon_site_tools1 li#site_eletter_button a:hover, li#site_eletter_button a:focus {background-position:-80px -82px;}
+#icon_site_tools1 li#site_widget_button a:link, li#site_widget_button a:visited {background-position:-160px 0px;}
+#icon_site_tools1 li#site_widget_button a:hover, li#site_widget_button a:focus {background-position:-160px -82px;}
+#icon_site_tools1 li#site_questions_button a:link, li#site_questions_button a:visited {background-position:-240px 0px;}
+#icon_site_tools1 li#site_questions_button a:hover, li#site_questions_button a:focus {background-position:-240px -82px;}
+ul {margin:0; padding:0; list-style-type:none;}
+ul#icon_asterisk1 {margin:0; padding:0; list-style-type:none;}
+li#icon_asterisk1 {background:url(http://www.valetmag.com/gr/global/art-icon_asterisk1.png); background-repeat:no-repeat; background-position:0 0px; margin-bottom:3px; color:#ab6828; text-indent:23px;}
+ul#icon_asterisk1 a {color:#842210; text-decoration:none;}
+li#icon_asterisk1 a {color:#842210; text-decoration:none;}
+ul#icon_asterisk1 a:hover {color:#545454; text-decoration:underline;}
+li#icon_asterisk1 a:hover {color:#545454; text-decoration:underline;}
+ul#icon_asterisk2 {margin:0; padding:0; list-style-type:none;}
+li#icon_asterisk2 {background:url(http://www.valetmag.com/gr/global/art-icon_asterisk3.png); background-repeat:no-repeat; background-position:0 0px; margin-bottom:3px; color:#848484; text-indent:23px;}
+ul#icon_asterisk2 a {color:#545454; text-decoration:none;}
+ul#icon_asterisk2 a:hover {color:#000; text-decoration:underline;}
+ul#icon_asterisk3 {margin:0; padding:0; list-style-type:none; border:none !important;}
+ul#icon_asterisk3 li#icon_asterisk3 {color:#ab6828; border:none !important; list-style-type:none;}
+ul#icon_asterisk3 li#icon_asterisk3 .icon {float:left; width:16px; height:15px; background:url(http://www.valetmag.com/gr/global/art-icon_asterisk1.png) no-repeat right center; background-size:contain; margin:0 8px 0 0; border:none !important; list-style-type:none;}
+ul#icon_asterisk3 a {color:#842210; text-decoration:none;}
+li#icon_asterisk3 a {color:#842210; text-decoration:none;}
+ul#icon_asterisk3 a:hover {color:#545454; text-decoration:underline;}
+li#icon_asterisk3 a:hover {color:#545454; text-decoration:underline;}
+li#icon_ask_question1 {background:url(http://www.valetmag.com/gr/global/art-icon_ask_question1.png); background-repeat:no-repeat; background-position:0 0px; padding:18px 0 0 64px;}
+li#icon_ask_answer1 {background:url(http://www.valetmag.com/gr/global/art-icon_ask_answer1.png); background-repeat:no-repeat; background-position:0 0px; padding:18px 0 0 64px;}
+li#icon_ask_question2 {min-height:25px; background:url(http://www.valetmag.com/gr/global/art-icon_ask_question2.png); background-repeat:no-repeat; background-position:0 0px; padding:5px 0 0 39px;}
+li#icon_ask_answer2 {min-height:25px; background:url(http://www.valetmag.com/gr/global/art-icon_ask_answer2.png); background-repeat:no-repeat; background-position:0 0px; padding:5px 0 0 39px;}
+li#icon_ask_question3 {margin:0; padding:0; border:0;}
+li#icon_ask_question3 .text a {text-decoration:none; border:0;}
+li#icon_ask_question3 .text {float:left; width:525px; margin:18px 0 25px 0;}
+li#icon_ask_question3 .icon {float:left; width:50px; height:50px; margin:1px 14px 25px 0; background:url(http://www.valetmag.com/gr/global/art-icon_ask_question1.png) no-repeat right center; background-size:contain; border:none !important; list-style-type:none;}
+li#icon_ask_answer3 {margin:0; padding:0; border:0;}
+li#icon_ask_answer3 .text a {text-decoration:none; border:0;}
+li#icon_ask_answer3 .text {float:left; width:525px; margin:18px 0 0 0;}
+li#icon_ask_answer3 .icon {float:left; width:50px; height:50px; margin:1px 14px 0 0; background:url(http://www.valetmag.com/gr/global/art-icon_ask_answer1.png) no-repeat right center; background-size:contain; border:none !important; list-style-type:none;}
+
+li#icon_index_feed_art {float:left; margin-right:10px; width:40px; height:40px; border:solid 1px #fff;}
+li#icon_index_feed_article {float:left; width:736px;}
+ul#icon_arrows1 {margin:0; padding:0; list-style-type:none;}
+li#icon_arrows1 {background:url(http://www.valetmag.com/gr/global/art-icon_arrows1.gif); background-repeat:no-repeat; background-position:0 0px; padding-bottom:3px; text-indent:30px;}
+ul#icon_arrows1_2 {margin:0; padding:0; list-style-type:none;}
+li#icon_arrows1_2 {background:url(http://www.valetmag.com/gr/global/art-icon_arrows1_2.gif); background-repeat:no-repeat; background-position:0 0px; padding-bottom:3px; text-indent:30px;}
+ul#icon_article_tools1 {margin:0; padding:0; list-style-type:none;}
+ul#icon_article_tools1 li#icon_print1 {height:15px; background:url(http://www.valetmag.com/gr/global/art-icon_print1.gif); background-repeat:no-repeat; background-position:0 0px; margin-bottom:8px; color:#ab6828; text-indent:23px;}
+ul#icon_article_tools1 li#icon_email1 {height:15px; background:url(http://www.valetmag.com/gr/global/art-icon_email1.gif); background-repeat:no-repeat; background-position:0 0px; margin-bottom:8px; color:#ab6828; text-indent:23px;}
+ul#icon_article_tools1 li#icon_save1 {height:15px; background:url(http://www.valetmag.com/gr/global/art-icon_save1.gif); background-repeat:no-repeat; background-position:0 0px; margin-bottom:8px; color:#ab6828; text-indent:23px;}
+ul#icon_article_tools1 li#icon_rss1 {height:15px; background:url(http://www.valetmag.com/gr/global/art-icon_rss2.gif); background-repeat:no-repeat; background-position:2px 0px; margin-bottom:8px; color:#ab6828; text-indent:23px;}
+ul#icon_article_tools1 li#icon_question1 {height:15px; background:url(http://www.valetmag.com/gr/global/art-icon_question2.gif); background-repeat:no-repeat; background-position:0 0px; margin-bottom:8px; color:#ab6828; text-indent:23px;}
+ul#icon_article_tools1 li#icon_enlarge1 {height:15px; background:url(http://www.valetmag.com/gr/global/art-icon_enlarge1.gif); background-repeat:no-repeat; background-position:0 0px; margin-bottom:8px; color:#ab6828; text-indent:23px;}
+ul#icon_article_tools1 li#icon_twitter1 {height:15px; background:url(http://www.valetmag.com/gr/global/art-icon_twitter3.gif); background-repeat:no-repeat; background-position:0 2px; margin-bottom:8px; color:#ab6828; text-indent:23px;}
+
+ul#icon_article_tools2 {margin:0; padding:0; list-style-type:none;}
+ul#icon_article_tools2 li#icon_print2 {height:15px; background:url(http://www.valetmag.com/gr/global/art-icon_print2.gif); background-repeat:no-repeat; background-position:0 0px; margin-bottom:8px; color:#ab6828; text-indent:23px;}
+ul#icon_article_tools2 li#icon_email2 {height:15px; background:url(http://www.valetmag.com/gr/global/art-icon_email2.gif); background-repeat:no-repeat; background-position:0 0px; margin-bottom:8px; color:#ab6828; text-indent:23px;}
+ul#icon_article_tools2 li#icon_save2 {height:15px; background:url(http://www.valetmag.com/gr/global/art-icon_save2.gif); background-repeat:no-repeat; background-position:0 0px; margin-bottom:8px; color:#ab6828; text-indent:23px;}
+ul#icon_article_tools2 li#icon_rss2 {height:15px; background:url(http://www.valetmag.com/gr/global/art-icon_rss3.gif); background-repeat:no-repeat; background-position:0 0px; margin-bottom:8px; color:#ab6828; text-indent:23px;}
+ul#icon_article_tools2 li#icon_question2 {height:15px; background:url(http://www.valetmag.com/gr/global/art-icon_question4.gif); background-repeat:no-repeat; background-position:0 0px; margin-bottom:8px; color:#ab6828; text-indent:23px;}
+#icon_info1 {position:relative; width:14px; height:14px; z-index:1; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.valetmag.com/gr/global/art-icon_info1.png',sizingMethod='scale');}
+
+
+
+/* Breadcrumbs */
+div#breadcrumbs_wrapper1 {float:left; margin:0; padding:0;}
+div#breadcrumbs_wrapper1 #breadcrumbs_left {float:left; width:9px; height:14px; background-image:url(http://www.valetmag.com/gr/global/art-breadcrumbs_left.gif); background-repeat:no-repeat;}
+div#breadcrumbs_wrapper1 #breadcrumbs_middle {float:left; height:14px; background-image:url(http://www.valetmag.com/gr/global/art-breadcrumbs_middle.gif); background-repeat:repeat-x;}
+div#breadcrumbs_wrapper1 #breadcrumbs_right {float:left; width:12px; height:14px; background-image:url(http://www.valetmag.com/gr/global/art-breadcrumbs_right.gif); background-repeat:no-repeat;}
+div#breadcrumbs_wrapper1 #breadcrumbs_right2 {float:left; width:20px; height:14px; background-image:url(http://www.valetmag.com/gr/global/art-breadcrumbs_right2.gif); background-repeat:no-repeat;}
+div#breadcrumbs_wrapper2 {float:left; margin:0; padding:0 0 0 8px;}
+a.breadcrumbs_home  {padding-left:12px; background-image:url(http://www.valetmag.com/gr/global/art-icon_home1.gif);background-repeat:no-repeat; background-position:0 2px;}
+
+
+
+
+
+
+
+
+/* Buttons */
+button {border:0; cursor:pointer; font-weight:bold; font-size:11px; margin:0; padding-right:8px; text-align:center;}
+button span {position:relative; display:block; white-space:nowrap; padding:0 0 0 8px;}
+button.blue {background:url(http://www.valetmag.com/gr/global/art-button1_right_off.gif) right no-repeat;}
+button.blue span {height:19px; line-height:19px; background:url(http://www.valetmag.com/gr/global/art-button1_left_off.gif) left no-repeat; background-color:#e0e6f0; color:#000; font-size:11px;}
+button.blue:hover {background:url(http://www.valetmag.com/gr/global/art-button1_right_on.gif) right no-repeat;}
+button.blue:hover span {background:url(http://www.valetmag.com/gr/global/art-button1_left_on.gif) left no-repeat; background-color:#545454; color:#fff;}
+button.black {background:url(http://www.valetmag.com/gr/global/art-button2_right_off.gif) right no-repeat;}
+button.black span {height:19px; line-height:19px; background:url(http://www.valetmag.com/gr/global/art-button2_left_off.gif) left no-repeat; background-color:#000; color:#fff; text-transform:uppercase; font-size:11px;}
+button.black:hover {background:url(http://www.valetmag.com/gr/global/art-button2_right_on.gif) right no-repeat;}
+button.black:hover span {background:url(http://www.valetmag.com/gr/global/art-button2_left_on.gif) left no-repeat; background-color:#545454; color:#fff; text-transform:uppercase;}
+button {width:auto; overflow:visible;}
+button span {margin-top:1px;}
+a.button_black {background: transparent url('http://www.valetmag.com/gr/global/art-button3_a.gif') no-repeat scroll top right; color:#fff; display:block; float:left; text-transform:uppercase; height:22px; margin:0; padding-right:8px; text-decoration:none; overflow:hidden; font:bold 85% helvetica;}
+a.button_black span {background: transparent url('http://www.valetmag.com/gr/global/art-button3_span.gif') no-repeat; display:block; line-height:14px; padding:5px 0 3px 8px; overflow:hidden;}
+a.button_black:hover {background-position:bottom right; color:#fff; outline:none;}
+a.button_black:hover span {background-position:bottom left; padding:5px 0 3px 8px;}
+a.button_black2 {background: transparent url('http://www.valetmag.com/gr/global/art-button3_2_a.gif') no-repeat scroll top right; color:#fff; display:block; float:left; text-transform:uppercase; height:22px; margin:0; padding-right:8px; text-decoration:none; overflow:hidden; font:bold 85% helvetica;}
+a.button_black2 span {background: transparent url('http://www.valetmag.com/gr/global/art-button3_2_span.gif') no-repeat; display:block; line-height:14px; padding:5px 0 3px 8px; overflow:hidden;}
+a.button_black2:hover {background-position:bottom right; color:#fff; outline:none;}
+a.button_black2:hover span {background-position:bottom left; padding:5px 0 3px 8px;}
+a.button_blue {background: transparent url('http://www.valetmag.com/gr/global/art-button4_a.gif') no-repeat scroll top right; color:#000; display:block; float:left; text-transform:uppercase; height:22px; margin:0; padding-right:8px; text-decoration:none; overflow:hidden; font:bold 85% helvetica;}
+a.button_blue span {background: transparent url('http://www.valetmag.com/gr/global/art-button4_span.gif') no-repeat; display:block; line-height:14px; padding:5px 0 3px 8px; overflow:hidden;}
+a.button_blue:hover {background-position:bottom right; color:#fff; outline:none;}
+a.button_blue:hover span {background-position:bottom left; padding:5px 0 3px 8px;}
+a.button_gray {background: transparent url('http://www.valetmag.com/gr/global/art-button5_a.gif') no-repeat scroll top right; color:#000; display:block; float:left; text-transform:uppercase; height:22px; margin:0; padding-right:8px; text-decoration:none; overflow:hidden; font:bold 85% helvetica;}
+a.button_gray span {background: transparent url('http://www.valetmag.com/gr/global/art-button5_span.gif') no-repeat; display:block; line-height:14px; padding:5px 0 3px 8px; overflow:hidden;}
+a.button_gray:hover {background-position:bottom right; color:#fff; outline:none;}
+a.button_gray:hover span {background-position:bottom left; padding:5px 0 3px 8px;}
+
+
+a.button_subnav_on {background: transparent url('http://www.valetmag.com/gr/global/art-button_subnav_on_a.gif') no-repeat scroll top right; color:#000; display:block; float:left; text-transform:uppercase; height:22px; margin:0; padding-right:8px; text-decoration:none; overflow:hidden; font:bold 85% helvetica;}
+a.button_subnav_on span {background: transparent url('http://www.valetmag.com/gr/global/art-button_subnav_on_b.gif') no-repeat; display:block; line-height:14px; padding:5px 0 3px 8px; overflow:hidden;}
+a.button_subnav_on:hover {background-position:bottom right; color:#fff; outline:none;}
+a.button_subnav_on:hover span {background-position:bottom left; padding:5px 0 3px 8px;}
+a.button_subnav_off {background: transparent url('http://www.valetmag.com/gr/global/art-button_subnav_off_a.gif') no-repeat scroll top right; color:#000; display:block; float:left; text-transform:uppercase; height:22px; margin:0; padding-right:8px; text-decoration:none; overflow:hidden; font:bold 85% helvetica;}
+a.button_subnav_off span {background: transparent url('http://www.valetmag.com/gr/global/art-button_subnav_off_b.gif') no-repeat; display:block; line-height:14px; padding:5px 0 3px 8px; overflow:hidden;}
+a.button_subnav_off:hover {background-position:bottom right; color:#fff; outline:none;}
+a.button_subnav_off:hover span {background-position:bottom left; padding:5px 0 3px 8px;}
+
+
+
+
+
+/* Functions */
+.clearboth {clear:both;}
+.clearboth_2 {clear:both; height:2px;}
+.clearboth_5 {clear:both; height:5px;}
+.clearboth_8 {clear:both; height:5px;}
+.clearboth_10 {clear:both; height:10px;}
+.clearboth_12 {clear:both; height:12px;}
+.clearboth_15 {clear:both; height:15px;}
+.clearboth_20 {clear:both; height:20px;}
+.clearboth_25 {clear:both; height:25px;}
+.clearboth_30 {clear:both; height:30px;}
+.clearall {clear:all;}
+
+
+
+
+/* Global Nav */
+#global_nav {float:left; width:940px; height:25px;}
+#global_nav ul#nav {position:relative; width:980px; height:25px; margin:0px; padding:0px; background-image:url(http://www.valetmag.com/gr/global/art-globalnav1.gif); background-repeat:repeat-x; background-position:right top;}
+#global_nav ul#nav li {padding:0; margin:0; list-style-type:none; float:left; text-indent:-9999px;}
+#global_nav ul#nav li a {border:0; text-decoration:none; display:block; background-color:transparent; background-image:url(http://www.valetmag.com/gr/global/art-globalnav1.gif); background-repeat:no-repeat;}
+#global_nav li#home a {width:48px; height:25px;}
+#global_nav li#style a {width:91px; height:25px;}
+#global_nav li#grooming a {width:127px; height:25px;}
+#global_nav li#living a {width:99px; height:25px;}
+#global_nav li#culture a {width:108px; height:25px;}
+#global_nav li#handbook a {width:162px; height:25px;}
+#global_nav li#home a:link, li#home a:visited {background-position:0px 0px;}
+#global_nav li#home a:hover, li#home a:focus {background-position:0px -25px;}
+#global_nav li#style a:link, li#style a:visited {background-position:-48px 0px;}
+#global_nav li#style a:hover, li#style a:focus {background-position:-48px -25px;}
+#global_nav li#grooming a:link, li#grooming a:visited {background-position:-139px 0px;}
+#global_nav li#grooming a:hover, li#grooming a:focus {background-position:-139px -25px;}
+#global_nav li#living a:link, li#living a:visited {background-position:-266px 0px;}
+#global_nav li#living a:hover, li#living a:focus {background-position:-266px -25px;}
+#global_nav li#culture a:link, li#culture a:visited {background-position:-365px 0px;}
+#global_nav li#culture a:hover, li#culture a:focus {background-position:-365px -25px;}
+#global_nav li#handbook a:link, li#handbook a:visited {background-position:-473px 0px;}
+#global_nav li#handbook a:hover, li#handbook a:focus {background-position:-473px -25px;}
+body#home ul#nav li#home a {background-position:0px -50px;}
+body#style ul#nav li#style a {background-position:-48px -50px;}
+body#grooming ul#nav li#grooming a {background-position:-139px -50px;}
+body#living ul#nav li#living a {background-position:-266px -50px;}
+body#culture ul#nav li#culture a {background-position:-365px -50px;}
+body#handbook ul#nav li#handbook a {background-position:-473px -50px;}
+
+ul#global_nav_vs3 {float:left; position:relative; width:964px; margin:0; padding:0; list-style-type:none; border-left:solid 1px #4d4d4d; font-family:"helvetica",sans-serif;}
+ul#global_nav_vs3 li#home {float:left; background-color:#000;}
+ul#global_nav_vs3 li#home a {float:left; display:block; width:14px; height:12px; padding:8px; background-color:#000;}
+ul#global_nav_vs3 li#home a:hover {display:block; background-color:#545454;}
+ul#global_nav_vs3 li#home a:active {display:block; background-color:#b6b6b6;}
+ul#global_nav_vs3 li#style {float:left; border-left:solid 1px #4d4d4d; border-right:solid 1px #4d4d4d; background-color:#000;}
+ul#global_nav_vs3 li#style a {float:left; display:block; padding:7px 20px 5px 20px; font-family:"helvetica",sans-serif; font-size:120%; color:#fff; text-decoration:none;}
+ul#global_nav_vs3 li#style a:hover {display:block; background-color:#545454; color:#fff; text-decoration:none;}
+ul#global_nav_vs3 li#style a:active {display:block; background-color:#b6b6b6; color:#fff; text-decoration:none;}
+ul#global_nav_vs3 li#grooming {float:left; border-right:solid 1px #4d4d4d; background-color:#000;}
+ul#global_nav_vs3 li#grooming a {float:left; display:block; padding:7px 20px 5px 20px; font-family:"helvetica",sans-serif; font-size:120%; color:#fff; text-decoration:none;}
+ul#global_nav_vs3 li#grooming a:hover {display:block; background-color:#545454; color:#fff; text-decoration:none;}
+ul#global_nav_vs3 li#grooming a:active {display:block; background-color:#b6b6b6; color:#fff; text-decoration:none;}
+ul#global_nav_vs3 li#living {float:left; border-right:solid 1px #4d4d4d; background-color:#000;}
+ul#global_nav_vs3 li#living a {float:left; display:block; padding:7px 20px 5px 20px; font-family:"helvetica",sans-serif; font-size:120%; color:#fff; text-decoration:none;}
+ul#global_nav_vs3 li#living a:hover {display:block; background-color:#545454; color:#fff; text-decoration:none;}
+ul#global_nav_vs3 li#living a:active {display:block; background-color:#b6b6b6; color:#fff; text-decoration:none;}
+ul#global_nav_vs3 li#shopper {float:right; border-left:solid 1px #4d4d4d; border-right:solid 1px #4d4d4d; background-color:#000;}
+ul#global_nav_vs3 li#shopper a {float:right; display:block; padding:7px 20px 5px 20px; font-family:"helvetica",sans-serif; font-size:103%; color:#cecece; text-decoration:none;}
+ul#global_nav_vs3 li#shopper a:hover {display:block; background-color:#545454; color:#fff; text-decoration:none;}
+ul#global_nav_vs3 li#shopper a:active {display:block; background-color:#b6b6b6; color:#fff; text-decoration:none;}
+ul#global_nav_vs3 li#mix {float:right; border-right:solid 1px #4d4d4d; background-color:#000;}
+ul#global_nav_vs3 li#mix a {float:right; display:block; padding:7px 20px 5px 20px; font-family:"helvetica",sans-serif; font-size:103%; color:#cecece; text-decoration:none;}
+ul#global_nav_vs3 li#mix a:hover {display:block; background-color:#545454; color:#fff; text-decoration:none;}
+ul#global_nav_vs3 li#mix a:active {display:block; background-color:#b6b6b6; color:#fff; text-decoration:none;}
+ul#global_nav_vs3 li#edit {float:right; border-right:solid 1px #4d4d4d; background-color:#000;}
+ul#global_nav_vs3 li#edit a {float:right; display:block; padding:7px 20px 5px 20px; font-family:"helvetica",sans-serif; font-size:103%; color:#cecece; text-decoration:none;}
+ul#global_nav_vs3 li#edit a:hover {display:block; background-color:#545454; color:#fff; text-decoration:none;}
+ul#global_nav_vs3 li#edit a:active {display:block; background-color:#b6b6b6; color:#fff; text-decoration:none;}
+ul#global_nav_vs3 li#ask {float:right; border-right:solid 1px #4d4d4d; background-color:#000;}
+ul#global_nav_vs3 li#ask a {float:right; display:block; padding:7px 20px 5px 20px; font-family:"helvetica",sans-serif; font-size:103%; color:#cecece; text-decoration:none;}
+ul#global_nav_vs3 li#ask a:hover {display:block; background-color:#545454; color:#fff; text-decoration:none;}
+ul#global_nav_vs3 li#ask a:active {display:block; background-color:#b6b6b6; color:#fff; text-decoration:none;}
+ul#global_nav_vs3 li#handbook {float:right; border-right:solid 1px #4d4d4d; background-color:#000;}
+ul#global_nav_vs3 li#handbook a {float:right; display:block; padding:7px 20px 5px 20px; font-family:"helvetica",sans-serif; font-size:103%; color:#cecece; text-decoration:none;}
+ul#global_nav_vs3 li#handbook a:hover {display:block; background-color:#545454; color:#fff; text-decoration:none;}
+ul#global_nav_vs3 li#handbook a:active {display:block; background-color:#b6b6b6; color:#fff; text-decoration:none;}
+body#home ul#global_nav_vs3 li#home a {float:left; display:block; padding:8px; background-color:#f3dc1d;}
+body#home_index1 ul#global_nav_vs3 li#home a {float:left; display:block; padding:8px; background-color:#f3dc1d;}
+body#home_index2 ul#global_nav_vs3 li#home a {float:left; display:block; padding:8px; background-color:#f3dc1d;}
+body#style ul#global_nav_vs3 li#style a {float:left; background-color:#f3dc1d; color:#000;}
+body#grooming ul#global_nav_vs3 li#grooming a {float:left; background-color:#f3dc1d; color:#000;}
+body#living ul#global_nav_vs3 li#living a {float:left; background-color:#f3dc1d; color:#000;}
+body#shopper ul#global_nav_vs3 li#shopper a {float:left; background-color:#f3dc1d; color:#000;}
+body#shopper_talk ul#global_nav_vs3 li#shopper a {float:left; background-color:#f3dc1d; color:#000;}
+body#shopper_engine ul#global_nav_vs3 li#shopper a {float:left; background-color:#f3dc1d; color:#000;}
+body#shopper_sales ul#global_nav_vs3 li#shopper a {float:left; background-color:#f3dc1d; color:#000;}
+body#shopper_directory ul#global_nav_vs3 li#shopper a {float:left; background-color:#f3dc1d; color:#000;}
+body#mix ul#global_nav_vs3 li#mix a {float:left; background-color:#f3dc1d; color:#000;}
+body#edit ul#global_nav_vs3 li#edit a {float:left; background-color:#f3dc1d; color:#000;}
+body#ask ul#global_nav_vs3 li#ask a {float:left; background-color:#f3dc1d; color:#000;}
+body#handbook ul#global_nav_vs3 li#handbook a {float:left; background-color:#f3dc1d; color:#000;}
+
+
+/* Sub Nav */
+div#global_sub_nav {float:left; width:980px; height:35px; background-color:#f0f0f0;}
+div#global_sub_nav ul#subnav {position:relative; width:980px; height:35px; margin:0px; padding:0px;}
+div#global_sub_nav ul#subnav li {padding:0; margin:0; list-style-type:none; float:left; font:bold 104% helvetica; color:#545454; text-transform:none;}
+div#global_sub_nav ul#subnav li a {border:0; text-decoration:none;}
+div#global_sub_nav li#edit a {float:left; margin:10px 20px 0 13px; padding:0 3px 0 3px;}
+div#global_sub_nav li#edit a:link, li#edit a:visited {text-decoartion:none; color:#000;}
+div#global_sub_nav li#edit a:hover, li#edit a:focus {text-decoration:none; color:#545454;}
+div#global_sub_nav li#mix a {float:left; margin:10px 20px 0 0; padding:0 3px 0 3px;}
+div#global_sub_nav li#mix a:link, li#mix a:visited {text-decoartion:none; color:#000;}
+div#global_sub_nav li#mix a:hover, li#mix a:focus {text-decoration:none; color:#545454;}
+div#global_sub_nav li#ask a {float:left; margin:10px 20px 0 0; padding:0 3px 0 3px;}
+div#global_sub_nav li#ask a:link, li#ask a:visited {text-decoartion:none; color:#000;}
+div#global_sub_nav li#ask a:hover, li#ask a:focus {text-decoration:none; color:#545454;}
+body#edit ul#subnav li#edit a {border-bottom:solid 2px #f3dc1d;}
+body#mix ul#subnav li#mix a {border-bottom:solid 2px #f3dc1d;}
+body#ask ul#subnav li#ask a {border-bottom:solid 2px #f3dc1d;}
+
+/* Footer Nav */
+#footer_nav {float:left; width:17px; height:15px;}
+#footer_nav ul#footernav {position:relative; width:17px; height:15px; margin:0px; padding:0px; background-image:url(http://www.valetmag.com/gr/global/art-subnav1.gif); background-repeat:no-repeat; background-position:right top;}
+#footer_nav ul#footernav li {padding:0; margin:0; list-style-type:none; float:left; text-indent:-9999px;}
+#footer_nav ul#footernav li a {border:0; text-decoration:none; display:block; background-color:transparent; background-image:url(http://www.valetmag.com/gr/global/art-subnav1.gif); background-repeat:no-repeat;}
+#footer_nav li#home a {width:17px; height:15px;}
+#footer_nav li#home a:link, li#home a:visited {background-position:0px 0px;}
+#footer_nav li#home a:hover, li#home a:focus {background-position:0px -15px;}
+
+
+/* Handbook Nav */
+.dhtmlgoodies_question {width:116px; height:20px; color:#000; overflow:hidden; cursor:pointer;}
+.dhtmlgoodies_question a {color:#000; text-decoration:none;}
+.dhtmlgoodies_question a:hover {text-decoration: underline; color:#545454;}
+.dhtmlgoodies_answer {width:116px; height:20px; visibility:hidden; overflow:hidden; position:relative;}
+.dhtmlgoodies_answer_content {position:relative;}
+
+
+/* The Mix Nav */
+#mix_nav {float:left; width:21px; height:500px;}
+#mix_nav ul#button {position:relative; width:21px; height:500px; margin:0px; padding:0px; background-image:url(http://www.valetmag.com/gr/the-mix/art-button_nav2.gif); background-repeat:no-repeat; background-position:right top;}
+#mix_nav ul#button li {padding:0; margin:0; list-style-type:none; float:left; text-indent:-9999px;}
+#mix_nav ul#button li a {border:0; text-decoration:none; display:block; background-color:transparent; background-image:url(http://www.valetmag.com/gr/the-mix/art-button_nav2.gif); background-repeat:no-repeat;}
+#mix_nav li#left a {width:21px; height:500px;}
+#mix_nav li#right a {width:21px; height:500px;}
+#mix_nav li#left a:link, li#left a:visited {background-position:0px 0px;}
+#mix_nav li#left a:hover, li#left a:focus {background-position:0px -500px;}
+#mix_nav li#right a:link, li#right a:visited {background-position:-21px 0px;}
+#mix_nav li#right a:hover, li#right a:focus {background-position:-21px -500px;}
+body#mix_nav_left ul#button li#left a {background-position:0px -1000px;}
+body#mix_nav_right ul#button li#right a {background-position:-21px -1000px;}
+
+#mix_nav2 {float:left; width:21px; height:319px;}
+#mix_nav2 ul#button2 {position:relative; width:21px; height:319px; margin:0px; padding:0px; background-image:url(http://www.valetmag.com/gr/the-mix/art-button_nav3.gif); background-repeat:no-repeat; background-position:right top;}
+#mix_nav2 ul#button2 li {padding:0; margin:0; list-style-type:none; float:left; text-indent:-9999px;}
+#mix_nav2 ul#button2 li a {border:0; text-decoration:none; display:block; background-color:transparent; background-image:url(http://www.valetmag.com/gr/the-mix/art-button_nav3.gif); background-repeat:no-repeat;}
+#mix_nav2 li#left2 a {width:21px; height:319px;}
+#mix_nav2 li#right2 a {width:21px; height:319px;}
+#mix_nav2 li#left2 a:link, li#left2 a:visited {background-position:0px 0px;}
+#mix_nav2 li#left2 a:hover, li#left2 a:focus {background-position:0px -319px;}
+#mix_nav2 li#right2 a:link, li#right2 a:visited {background-position:-21px 0px;}
+#mix_nav2 li#right2 a:hover, li#right2 a:focus {background-position:-21px -319px;}
+body#mix_nav_left2 ul#button2 li#left2 a {background-position:0px -638px;}
+body#mix_nav_right2 ul#button2 li#right2 a {background-position:-21px -638px;}
+
+
+/* The Edit Nav: Previous */
+#edit_nav_previous {float:left; width:109px; height:25px;}
+#edit_nav_previous ul#button_previous {position:relative; width:109px; height:25px; margin:0px; padding:0px; background-image:url(http://www.valetmag.com/gr/the-edit/art-button_previous1.gif); background-repeat:no-repeat; background-position:right top;}
+#edit_nav_previous ul#button_previous li {padding:0; margin:0; list-style-type:none; float:left; text-indent:-9999px;}
+#edit_nav_previous ul#button_previous li a {border:0; text-decoration:none; display:block; background-color:transparent; background-image:url(http://www.valetmag.com/gr/the-edit/art-button_previous1.gif); background-repeat:no-repeat;}
+#edit_nav_previous li#previous a {width:109px; height:25px;}
+#edit_nav_previous li#previous a:link, li#previous a:visited {background-position:0px 0px;}
+#edit_nav_previous li#previous a:hover, li#previous a:focus {background-position:0px -25px;}
+
+/* The Edit Nav: Next */
+#edit_nav_next {float:left; width:108px; height:25px;}
+#edit_nav_next ul#button_next {position:relative; width:108px; height:25px; margin:0px; padding:0px; background-image:url(http://www.valetmag.com/gr/the-edit/art-button_next1.gif); background-repeat:no-repeat; background-position:right top;}
+#edit_nav_next ul#button_next li {padding:0; margin:0; list-style-type:none; float:left; text-indent:-9999px;}
+#edit_nav_next ul#button_next li a {border:0; text-decoration:none; display:block; background-color:transparent; background-image:url(http://www.valetmag.com/gr/the-edit/art-button_next1.gif); background-repeat:no-repeat;}
+#edit_nav_next li#next a {width:108px; height:25px;}
+#edit_nav_next li#next a:link, li#previous a:visited {background-position:0px 0px;}
+#edit_nav_next li#next a:hover, li#previous a:focus {background-position:0px -25px;}
+
+/* The Edit: Feed Publications */
+ul#edit_publication {position:relative; padding:0px; margin:0px;}
+ul#edit_publication li {padding:0; margin:0; list-style-type:none; text-indent:-9999px; border:none;}
+ul#edit_publication li a {border:0; display:block; border:none;}
+ul#edit_publication li#link a {float:left; width:100%; height:100%; margin:0; padding:0; border:none;}
+ul#edit_publication li#link a:hover {float:left; width:100%; height:100%; margin:0; padding:0; border:solid 1px #f3dc1d;}
+.edit_overlay_contents {padding:5px;}
+.edit_overlay_close {float:right;}
+#edit_overlay1 {position:absolute; width:187px; height:253px; background-color:#000; border:solid 2px #f3dc1d;}
+
+/* Index: Lead Nav */
+#index_lead_nav {float:left; width:38px; height:68px;}
+#index_lead_nav ul#nav {position:relative; width:36px; height:68px; margin:0px; padding:0px; background-image:url(http://www.valetmag.com/gr/index/3_0/art-lead_nav1.gif); background-repeat:no-repeat; background-position:left top;}
+#index_lead_nav ul#nav li {padding:0; margin:0; list-style-type:none; float:left; text-indent:-9999px;}
+#index_lead_nav ul#nav li a {border:0; text-decoration:none; display:block; background-color:transparent; background-image:url(http://www.valetmag.com/gr/index/3_0/art-lead_nav1.gif); background-repeat:no-repeat;}
+#index_lead_nav li#index1 a {width:36px; height:36px;}
+#index_lead_nav li#index2 a {width:36px; height:32px;}
+#index_lead_nav li#index1 a:link, li#index1 a:visited {background-position:0px 0px;}
+#index_lead_nav li#index1 a:hover, li#index1 a:focus {background-position:0px -68px;}
+#index_lead_nav li#index2 a:link, li#index2 a:visited {background-position:0px 32px;}
+#index_lead_nav li#index2 a:hover, li#index2 a:focus {background-position:0px -104px;}
+body#home_index1 ul#nav li#index1 a {background-position:0px -136px;}
+body#home_index2 ul#nav li#index2 a {background-position:0px -172px;}
+body#home_index1 ul#nav li#home a {background-position:0px -50px;}
+body#home_index2 ul#nav li#home a {background-position:0px -50px;}
+
+
+
+
+/* Thickbox */
+* {padding:0; margin:0;}
+#TB_window {font:12px Arial, Helvetica, sans-serif; color:#545454;}
+#TB_secondLine {font:10px Arial, Helvetica, sans-serif; color:#545454;}
+#TB_window a:link {color:#000; text-decoration:none;}
+#TB_window a:hover {text-decoration:underline; color:#545454;}
+#TB_overlay {position:fixed; z-index:100; top:0px; left:0px; height:100%; width:100%;}
+.TB_overlayMacFFBGHack {background:url(http://www.valetmag.com/gr/global/art-background_lightbox1.png) repeat;}
+.TB_overlayBG {background-color:#fff; filter:alpha(opacity=80); -moz-opacity:0.80; opacity:0.80;}
+* html #TB_overlay { /* ie6 hack */ position:absolute; height:expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');}
+#TB_window {position:fixed; background:#ffffff; z-index:102; color:#545454; display:none; border:5px solid #bfbfbf; text-align:left; top:50%; left:50%;}
+* html #TB_window { /* ie6 hack */ position:absolute; margin-top:expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');}
+#TB_window img#TB_Image {display:block; margin:15px 0 0 15px; border-right:1px solid #ccc; border-bottom:1px solid #ccc; border-top:1px solid #666; border-left:1px solid #666;}
+#TB_caption {height:25px; padding:7px 30px 10px 25px; float:left;}
+#TB_closeWindow {height:25px; padding:11px 25px 10px 0; float:right;}
+#TB_closeAjaxWindow {padding:7px 10px 5px 0; margin-bottom:1px; text-align:right; float:right;}
+#TB_ajaxWindowTitle {float:left; padding:7px 0 5px 10px; margin-bottom:1px; font:bold 100% helvetica; color:#b6b6b6; text-transform:uppercase;}
+#TB_title {background-color:#fff; height:27px; border-bottom:solid 1px #e0e0e0;}
+#TB_ajaxContent {clear:both; padding:10px 10px 15px 10px; overflow:auto; text-align:left; font:normal 100% helvetica; line-height:15px;}
+#TB_ajaxContent.TB_modal {padding:15px;}
+#TB_ajaxContent p {padding:5px 0px 5px 0px;}
+#TB_load {position:fixed; display:none; height:13px; width:208px; z-index:103; top:50%; left:50%; margin:-6px 0 0 -104px;}
+* html #TB_load { /* ie6 hack */ position:absolute; margin-top:expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');}
+#TB_HideSelect {z-index:99; position:fixed; top:0; left:0; background-color:#fff; border:none; filter:alpha(opacity=0); -moz-opacity:0; opacity:0; height:100%; width:100%;}
+* html #TB_HideSelect { /* ie6 hack */ position:absolute; height:expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');}
+#TB_iframeContent {clear:both; border:none; margin-bottom:-1px; margin-top:1px; _margin-bottom:1px;}
+
+
+/* Product Gallery */
+.dhonishow {overflow:hidden; float:left; width:691px; height:450px; font-family:"MS Trebuchet", "Lucida Grande", "Lucida Sans Unicode", sans-serif;}
+.dhonishow * {padding:0; margin:0; border:none; list-style:none;}
+.dhonishow-image {overflow:hidden; width:550px; height:450px; text-align:left; background:#fff; position:relative; float:right; margin-left:20px;}
+.dhonishow-image li {position:absolute; left:0; top:0; margin:0; padding:0; }
+.dhonishow-navi {overflow:hidden; width:122px; background: url(http://www.valetmag.com/gr/product-gallery/art-button_both_off.gif) no-repeat;}
+.dhonishow-picture-alt {float:left; width:122px; margin-top:5px; font:normal 95% helvetica;}
+.dhonishow-navi .dhonishow-previous-picture {text-indent:-999px; width:61px; height:19px; float:left; margin:0; cursor: pointer; -moz-outline:none;}
+.dhonishow-navi .dhonishow-next-picture {text-indent:-999px; width:61px; height:19px; float:right; margin:0; cursor:  pointer;-moz-outline: none;}
+.dhonishow-navi .dhonishow-next-picture {background: url(http://www.valetmag.com/gr/product-gallery/art-button_next_on.gif) no-repeat;}
+.dhonishow-previous-picture {background: url(http://www.valetmag.com/gr/product-gallery/art-button_previous_on.gif) no-repeat;}
+.dhonishow-next-picture:hover {background: url(http://www.valetmag.com/gr/product-gallery/art-button_next_hover.gif) no-repeat;}
+.dhonishow-previous-picture:hover {background: url(http://www.valetmag.com/gr/product-gallery/art-button_previous_hover.gif) no-repeat;}
+.dhonishow-navi .paging {float:left; width:122px; margin-top:20px; font:bold 84.5% helvetica; color:#e0b60d; text-transform:uppercase;}
+
+
+/* Twiigs Poll */
+div.TWIIGSPOLL {width:170px;}
+div.TWIIGSPOLL TWIIGSPOLLquestionlink {font: bold 12px arial; color: #545454;}
+div.TWIIGSPOLL TWIIGSPOLLquestionlink a {font:bold 12px helvetica; text-decoration:none; color:#000;}
+div.TWIIGSPOLL TWIIGSPOLLquestionlink a:hover {text-decoration:underline; color:#545454;}
+div.TWIIGSPOLL .TWIIGSPOLLlink {font:10px helvetica; color:#000;}
+div.TWIIGSPOLL .TWIIGSPOLLlink a {font:10px helvetica; text-decoration:none; color:#000;}
+div.TWIIGSPOLL .TWIIGSPOLLlink a:hover {text-decoration:underline; color:#545454;}
+div.TWIIGSPOLL .TWIIGSPOLLmorelink {text-decoration:none; font:normal 10px arial; color:#545454;}
+div.TWIIGSPOLL .TWIIGSPOLLmorelink a {text-decoration:none; color: #000;}
+div.TWIIGSPOLL .TWIIGSPOLLmorelink a:hover {text-decoration:underline; color:#545454;}
+div.TWIIGSPOLL li.TWIIGSPOLLanswerselectionitem {font: 12px helvetica; color: #545454; }
+div.TWIIGSPOLL input.TWIIGSPOLLanswertext {/*width: 190px !important;*/ font: 12px helvetica; color: #545454;}
+div.TWIIGSPOLL input.TWIIGSPOLLanswercheckbox {font: 12px helvetica; color: #545454;}
+div.TWIIGSPOLL input.TWIIGSPOLLanswerradio {font: 12px helvetica; color: #545454;}
+div.TWIIGSPOLL input.TWIIGSPOLLsubmit {font: 12px helvetica; color: #545454;}
+div.TWIIGSPOLL div.TWIIGSPOLLtopresults {font: 12px helvetica; color: #545454;}
+div.TWIIGSPOLL li.TWIIGSPOLLanswersitem {font: 12px helvetica; color: #545454;}
+div.TWIIGSPOLL p.TWIIGSPOLLclosed {font: bold 12px helvetica; color: #545454;}
+div.TWIIGSPOLL p.TWIIGSPOLLtotalvotes {font: 12px helvetica; color: #545454;}
+div.TWIIGSPOLL div.TWIIGSPOLLloading {font: 12px helvetica; color: #545454;}
